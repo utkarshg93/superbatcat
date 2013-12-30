@@ -102,12 +102,14 @@ function SendData(){
 var algo=document.getElementById("Algorithm").selectedIndex;
 var dataset=document.getElementById("Dataset").selectedIndex;
 //PHP call
+
 }
 function SP(){
 	var SPsource=document.getElementById("sourceVertex").value;
 	var SPtarget=document.getElementById("targetVertex").value;
 	
 	//Obtain shortest path using rexster here//
+	
 	d3.json("shortestPath.json", function(otherjson) {
 		ShortPathl1=eval(otherjson.level1);
 		ShortPathl2=eval(otherjson.level2);

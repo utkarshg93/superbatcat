@@ -1,9 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-package javaapplication9;
-
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -182,7 +176,7 @@ public class FinalShortestPath {
         for(int i=0;i<path.size();i++){
                    System.out.println(path.get(i).name);}
     //    System.out.println(clusters.get(clustermapping.indexOf(1068)).nodes.size());
-        l3_1(1068);
+        l3_1(1);
         System.out.println("Path 2");
          shortest.computePaths(clusters.get(clustermapping.indexOf(1067)),clusters.get(clustermapping.indexOf(1068)));
         path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(1)));

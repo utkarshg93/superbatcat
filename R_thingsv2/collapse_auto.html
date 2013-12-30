@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Force-Directed Graph</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>  
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+    <style type="text/css">
+
+circle.node {
+  cursor: pointer;
+  stroke: black;
+            }
+            
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+	   }
+
+line.link {
+  fill: black;
+  stroke: black;
+  stroke-width: 1.5px;
+          }
+
+    </style>
+  </head>
+  <body>
+<table  width="1000" height="500">
+		<tr>
+					
+			<td align=center width=650 height=500>
+				<div id="chart"></div>
+			</td>
+			
+			<td align="justify" valign="top" style="font-family: Segoe UI Light; font-size: 80%; background-color: #111111; color:#FFFFFF;">
+			 <table  width="330">
+				<tr>
+					<td>
+					
+ 					<select id="Algorithm">
+					  <option>Select...</option>
+					  <option>Edge Betweeness</option>
+					  <option>EigenVector</option>
+					  <option>Labeling WalkTrap</option>
+					  <option>Fastgreedy</option>
+					  <option>Label Propogation</option>
+					</select>
+					</td><td>
+					<select id="Dataset">
+					  <option>Select...</option>
+					  <option>Dr.Who</option>
+					  <option>Enron Email</option>
+					  <option>Slashdot</option>
+					  <option>Dblp sliced</option>
+					  <option>7000</option>
+					</select>
+					<input type="submit" value="Submit" onclick="SendData();" />
+					
+					</td>
+				</tr>
+				<tr> 
+					<td>Source Vertex:</td><td> <input type='int' id="sourceVertex"></td></tr>
+					<tr><td>Terminal Vertex:</td><td> <input type='int' id="targetVertex"></td></tr>
+					<tr>
+					<td><button type="button" id="ShortestPath" onclick="SP()">Find Shortest Path</button></td>
+					</tr>
+					
+
+				
+				
+			</tr>
+			</table>
+           
+			
+		
+		</tr>
+	
+	</table>
+    <div id="output"></div>
+    <div id="chart"></div>
+
+<script type="text/javascript">
+var w = window.innerWidth,
+    h = window.innerHeight,
+    node,
+    link,
+    root,
+    nodes = [],
+    clustlinks = [],
+    nodelinks = [],
+    inClustLinks = [],
+    colorcategory=d3.scale.category20(),
+    groups,
+    groupEnds=[],
+    groupPath,
+    groupFill,
+    newnodes = [];
+
+
+
+
+
+
+//SPswitch is shortest path switch, 1 means on, 0 means off.
+var ShortPathl1 = [], ShortPathl2 = [],ShortPathLinksl1=[],ShortPathLinksl2=[],SPswitch=0;
+function SendData(){
+var algo=document.getElementById("Algorithm").selectedIndex;
+var dataset=document.getElementById("Dataset").selectedIndex;
+//PHP call
+  $.ajax({
+                type: "POST",
+                url: "try.php", //Your required php page
+                //data: "algo="algo, //pass your required data here
+                success: function(response){
+		  // alert(response);
+		   loadVisual();
+		                   }
+	  	   
+            });
+
+}
+function SP(){
+	var SPsource=document.getElementById("sourceVertex").value;
+	var SPtarget=document.getElementById("targetVertex").value;
+	
+	//Obtain shortest path using rexster here//
+	SendData();
+	d3.json("shortestPath.json", function(otherjson) {
+		ShortPathl1=eval(otherjson.level1);
+		ShortPathl2=eval(otherjson.level2);
+		SPswitch=1;
+		update();
+					    	         });
+	     }
+
+var force = d3.layout.force()
+    .on("tick", tick)
+    .size([w, h]);
+
+var vis = d3.select("#chart")
+  .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+    .attr("pointer-events", "all")
+  .append('svg:g')
+    .call(d3.behavior.zoom().on("zoom", redraw))
+  .append('svg:g');
+
+vis.append('svg:rect')
+    .attr('width', w)
+    .attr('height', h)
+    .attr('fill', 'white');
+
+
+
+function redraw() {
+  vis.attr("transform",
+      "translate(" + d3.event.translate + ")"
+      + " scale(" + d3.event.scale + ")");
+}  
+
+function loadVisual(){
+alert("LA");
+d3.json("enron.igraph.json", function(json) {
+	
+	root = json;
+	flatten(root);
+	//clustlinks = eval(json.clustlinks);
+	//var hierarchy = [100,50,20];
+	var hierarchy = eval(json.hierarchy);
+	//alert(hierarchy[0]);
+	for(var j=1;j<4;j++){
+		nodelinks[j]=new Array();
+		for(var i=0;i<hierarchy[j-1];i++)
+			nodelinks[j].push(eval(json["cluster"+j+"d"+i]));
+		            }
+
+ 
+vis.style("opacity", 1e-6)
+  .transition()
+    .duration(1000)
+    .style("opacity", 1);
+	try{
+update(); 
+}catch(e){alert(e);}
+						  });
+
+}
+function update() {
+	
+  // Restart the force layout.
+  force
+      .nodes(nodes)
+      .links(clustlinks)
+      .linkStrength(function(d){if(d.target.name[0]=="c"){return 0.003;} else return 1;})
+      .charge(function(d){if(d.name[0]=="c"){return -300;} else return -10*(parseInt(d.parent.name.slice(9)));})
+      .friction(0.7)
+      .start();
+	
+  groups = d3.nest().key(function(d) { return d.parent.name }).entries(nodes);
+  groupPath = function(d) { return "M" + d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; })).join("L") + "Z"; };
+  groupFill = function(d, i) { return color(nodes[nodes.length-1]); };
+
+  // Update the links.
+  link = vis.selectAll("line.link")
+      .data(clustlinks, function(d) { return d.target.name; });
+
+  // Enter any new links.
+  link.enter().append("svg:line",".node")
+      .attr("class", "link")
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; })
+      .attr("source",function(d){  return d.source.name;})
+      .attr("target",function(d){  return d.target.name;})
+      .append("title")
+      .text(function(d) { return d.source.name +"to"+ d.target.name; });
+ 
+  // Exit any old links.
+  link.exit().remove();
+  link.style("stroke",function(d){
+
+	if(SPswitch==1 && ((ShortPathl1.indexOf(parseInt(d.source.name))!=-1 && ShortPathl1.indexOf(parseInt(d.target.name))!=-1 && ShortPathl1.indexOf(parseInt(d.target.name))==ShortPathl1.indexOf(parseInt(d.source.name))+1) || ((ShortPathl2.indexOf(d.source.name)!=-1 && ShortPathl2.indexOf(d.target.name)!=-1) && ShortPathl1.indexOf(parseInt(d.target.name))==ShortPathl1.indexOf(parseInt(d.source.name))+1))) 
+						return "red";
+	else if(Math.abs(parseInt(d.source.name[7])-parseInt(d.target.name[7]))==1 || d.source.name[0]=='c' && d.target.name[0]!='c')					     
+ 			return "none";
+										   					
+		 else return"black";
+				 })
+      .style("stroke-width", function(d){ return (d.value/100)*2; })
+  // Update the nodes…
+  node = vis.selectAll("circle.node")
+      .data(nodes, function(d) { return d.id; })
+      .style("fill", color);
+
+  // Enter any new nodes.
+  node.enter().append("svg:circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; })
+      .attr("r", function(d) { return 10; })
+      .attr("name", function(d){ return d.name; })
+      .style("fill", color)
+      .append("title").text(function(d) { return d.name; })
+      .call(force.drag);
+       
+  node.on("click", click)
+      .call(force.drag);
+      
+  // Exit any old nodes.
+  node.exit().remove();
+ 
+		}
+
+
+function tick(e) {
+   
+  link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+	
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; })
+      .call(force.drag);
+
+var Groups =  vis.selectAll("path")
+     .data(groups)
+     .attr("d", groupPath)
+     .enter().insert("path", "circle")
+     .style("fill", groupFill)
+     .style("stroke", groupFill)
+     .style("stroke-width", 40)
+     .style("stroke-linejoin", "round")
+     .style("opacity", .2)
+     .attr("d", groupPath)
+     .attr("name", function(){ return "group";})
+     .attr("x", function(d) { return d.x; })
+     .attr("y", function(d) { return d.y; });
+
+
+      		}
+
+// Color leaf nodes orange, and packages white or blue.
+function color(d) { 	
+  	var code;
+	if(SPswitch==1 && ShortPathl1.indexOf(parseInt(d.id))!=-1)
+		return "Red";
+							  
+	if(SPswitch==1 && ShortPathl2.indexOf(d.id)!=-1 && nodes.indexOf(d.children[0])==-1)
+		return "Red";
+							      
+	if(d.parent=="flare") code="#333333";
+	else{ code=colorcategory(d.parent.name.slice(9)); }
+
+	//Returns Color code.
+	function CC(){ return code; }
+
+	var teal = d3.rgb(CC());
+	if(d.name == "cluster3d1") return "black";
+	if(d.name == "cluster2d1") return "black";
+	if(d.name == "cluster1d10") return "black";
+
+	if(d.name == "26360") return "pink";
+	if(d.color) return d.color;
+	else return teal ;
+		   }
+
+
+// Toggle children on click.
+function click(d) {
+
+	function check(child){ 
+	        if(nodes.indexOf(child)==-1) return true;
+	        else return false;
+	                     }
+
+	 if(check(d.children[0])){
+    		d.color=color(d);
+		try{flatten(d);} catch(e) {alert(e);}
+                         	 } 
+  	else{ 
+		d.color=color(d);
+		deflatten(d);
+       	    }
+  	update();
+
+		  }
+
+//Deflatten a node.
+function deflatten(node) {
+	var i=0,parent=node;
+	var clustnum = parseInt(parent.name.slice(9));
+	var depth = parseInt(parent.name.charAt(7));
+	var s = [];
+	var t = [];
+
+	function recurse(child) {
+        	if(nodes.indexOf(child)!=-1){
+        		nodes.splice(nodes.indexOf(child),1);
+        		if(parent.name!="flare"){  
+				//clustlinks.splice(clustlinks.indexOf(eval({"source":parent,"target":child,"value":50})),1);     
+				for(var i=0;i<nodelinks[depth][clustnum].length;i++){
+	 				if(nodelinks[depth][clustnum][i].source==child.name)
+                				s[i]=child;
+					if(nodelinks[depth][clustnum][i].target==child.name)
+                          			t[i]=child;
+					          				    }
+		   
+				 		}		
+                               		    }
+                        	}
+
+	if (node.children) node.children.forEach(recurse);
+	if(parent.name!="flare"){
+		if(nodelinks[depth][clustnum].length>0){
+			for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+				clustlinks.splice(clustlinks.indexOf(eval({"source":s[i],"target":t[i],"value":1}))); 
+		     				       }
+			        }	
+
+			 }
+
+
+// Returns a list of all nodes under the current node.
+function flatten(node) {
+	var i=0,parent=node,j=0, clustnum,depth;
+	if(parent.name!="flare"){
+	clustnum = parseInt(parent.name.slice(9));
+	depth = parseInt(parent.name.charAt(7));
+	}
+	var s = [];
+	var t = [];
+	function recurse(child) {
+	       // if(parent.name=="flare")
+		//	if(child.children.length<2)
+		//		return;
+		
+		if(!child.id) child.id = child.name;
+		if(!child.parent) child.parent=parent;
+		if(nodes.indexOf(child)==-1){
+			nodes.push(child);
+			if(parent.name!="flare"){
+				//clustlinks.push(eval({"source":parent,"target":child,"value":0}));
+				for(var i=0;i<nodelinks[depth][clustnum].length;i++){
+					if(nodelinks[depth][clustnum][i].source==child.name)
+		                	          s[i]=child;
+												    
+					if(nodelinks[depth][clustnum][i].target==child.name)
+                			          t[i]=child;
+									    	    }	
+                                		}	
+                                	     }
+                          	}
+
+	if (node.children) node.children.forEach(recurse);
+	if(parent.name!="flare"){ 
+		if(nodelinks[depth][clustnum].length>0){
+			for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+				clustlinks.push(eval({"source":s[i],"target":t[i],"value":50})); 
+			      	   	 	       }
+			        }
+
+		          }
+
+    </script>
+  </body>
+</html>
