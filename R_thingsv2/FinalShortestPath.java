@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package javaapplication9;
+//package javaapplication9;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ public class FinalShortestPath {
      clusters = new ArrayList<>();
     clustermapping = new ArrayList<>();
     nodetocluster = new ArrayList<>();
-                File inp = new File("/home/utkarsh/R_things/boo.txt");
+                File inp = new File("enron_undir_edgelist_connected");
         FileInputStream in = null;
         int nodeid=0;
         in = new FileInputStream(inp);
@@ -54,7 +54,7 @@ public class FinalShortestPath {
             System.out.println(clusters.get(i).name +" "+clusters.get(i).nodes);
         }*/
        // System.exit(0);
-        File inp1 = new File("/home/utkarsh/R_things/labeling_enron_subgraphs/enron_undir_edgelist");
+        File inp1 = new File("enron_undir_edgelist");
         FileInputStream in1 = null;
         in1 = new FileInputStream(inp1);
         Scanner scan2 = new Scanner(in1);
@@ -104,7 +104,7 @@ public class FinalShortestPath {
         nodetocluster = new ArrayList<>();
         //System.out.println(number);
         int flag=0;
-        File inp = new File("/home/utkarsh/R_things/boo.txt");
+        File inp = new File("enron_undir_edgelist_connected");
         FileInputStream in = null;
         int nodeid=0;
         in = new FileInputStream(inp);
@@ -133,7 +133,7 @@ public class FinalShortestPath {
             nodeid++;
         }
     //    System.out.println(clusters.size());
-        File inp1 = new File("/home/utkarsh/R_things/labeling_enron_subgraphs/enron_undir_edgelist");
+        File inp1 = new File("enron_undir_edgelist");
         FileInputStream in1 = null;
         in1 = new FileInputStream(inp1);
         Scanner scan2 = new Scanner(in1);
@@ -181,7 +181,7 @@ public class FinalShortestPath {
     
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
-      PrintWriter out = new PrintWriter("/home/utkarsh/R_things/shortest.json");
+      PrintWriter out = new PrintWriter("shortest.json");
       out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[");
       if(path.size()>1)
        for(int i=0;i<path.size();i++){
@@ -199,7 +199,7 @@ public class FinalShortestPath {
     
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
-      PrintWriter out = new PrintWriter("/home/utkarsh/R_things/shortest.json"); 
+      PrintWriter out = new PrintWriter("shortest.json"); 
      if(path.size()<2){
           out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[]}");
           return;

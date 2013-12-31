@@ -59,4 +59,4 @@ rm $1_2
 rm $1_1
 rm $1
 rm "eigenvector.r"
-#sudo cp 'enron.igraph.json' '/var/www'
+sudo cp 'enron.igraph.json' '/var/www'

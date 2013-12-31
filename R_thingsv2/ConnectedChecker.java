@@ -1,4 +1,4 @@
-package javaapplication10;
+//package javaapplication10;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -30,7 +30,7 @@ public class ConnectedChecker {
     static HashMap<Integer,Integer> map2;
     
     static void makeGraph() throws FileNotFoundException{
-        File inp = new File("/home/utkarsh/R_things/labeling_enron_subgraphs/enron_undir_edgelist_cluster");
+        File inp = new File("enron_undir_edgelist_cluster");
         FileInputStream in = null;
         int nodeid=0;
         in = new FileInputStream(inp);
@@ -56,7 +56,7 @@ public class ConnectedChecker {
         
        System.out.println(nodetocluster2.size());
       // System.exit(0);
-        File inp1 = new File("/home/utkarsh/R_things/labeling_enron_subgraphs/enron_undir_edgelist");
+        File inp1 = new File("enron_undir_edgelist");
         FileInputStream in1 = null;
         in1 = new FileInputStream(inp1);
         Scanner scan2 = new Scanner(in1);
@@ -110,15 +110,15 @@ public class ConnectedChecker {
 			if (!V[i])
 			{
 				++numComponets;
-				System.out.printf("\n\n\nStarting a BFS for component %d starting at node %d%n",numComponets,i);
+				//System.out.printf("\n\n\nStarting a BFS for component %d starting at node %d%n",numComponets,i);
 				
 				BFS(i,V,map2);
                                  clustern++;
 			}
 		
-		System.out.println();
+//		System.out.println();
                
-		System.out.printf("Finished with BFS - found %d components.%n", numComponets);
+//		System.out.printf("Finished with BFS - found %d components.%n", numComponets);
 	}
 	
 	// perform a BFS starting at node start
@@ -135,9 +135,9 @@ public class ConnectedChecker {
 		while (!Q.isEmpty())
 		{
 			int at=Q.poll(); // get the head of the queue
-			System.out.printf("At node %d in the BFS%n",at);
+//			System.out.printf("At node %d in the BFS%n",at);
                         
-        System.out.println(map.get(at));
+  //      System.out.println(map.get(at));
                nodetocluster2.set(map.get(at),clustern);
                         // add any unseen nodes to the queue to process, then mark them as visited so they don't get re-added
 			for (int i=0; i<N; ++i)
@@ -146,13 +146,13 @@ public class ConnectedChecker {
 					Q.offer(i);
 					V[i]=true;
 					
-					System.out.printf("Adding node %d to the queue in the BFS%n", i);
+	//				System.out.printf("Adding node %d to the queue in the BFS%n", i);
 				}
 			
-			System.out.printf("Done processing node %d%n", at);
+	//		System.out.printf("Done processing node %d%n", at);
 		}
 		
-		System.out.printf("Finished with the BFS from start node %d%n", start);
+	//	System.out.printf("Finished with the BFS from start node %d%n", start);
 	}
 
     public static void main(String[] args) throws FileNotFoundException {
@@ -166,7 +166,7 @@ public class ConnectedChecker {
              bfs(i);
         }
         
-        PrintWriter out = new PrintWriter("/home/utkarsh/R_things/boo.txt");
+        PrintWriter out = new PrintWriter("enron_undir_edgelist_connected");
         
       
        for(int i=0;i<nodetocluster2.size();i++){
