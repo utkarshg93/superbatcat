@@ -1,0 +1,5 @@
+g=new Neo4jGraph('/home/utkarsh/Desktop/neo4j-advanced-1.8.2/data/graph.db')
+println g.V.count()+"\t"+ g.E.count()
+for(i in 1..g.E.count())
+ println g.getEdge(i)
+g.shutdown()
