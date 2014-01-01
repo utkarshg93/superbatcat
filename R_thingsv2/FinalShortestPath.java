@@ -181,11 +181,11 @@ public class FinalShortestPath {
     
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
-      PrintWriter out = new PrintWriter("shortest.json");
+      PrintWriter out = new PrintWriter("ShortestPath.json");
       out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[");
       if(path.size()>1)
        for(int i=0;i<path.size();i++){
-                  out.print("\"cluster1d\":"+path.get(i).name);
+                  out.print("\"cluster"+path.get(i).name+"\"");
                   if(i<path.size()-1){
                       out.print(",");
                   }
@@ -199,7 +199,7 @@ public class FinalShortestPath {
     
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
-      PrintWriter out = new PrintWriter("shortest.json"); 
+      PrintWriter out = new PrintWriter("ShortestPath.json"); 
      if(path.size()<2){
           out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[]}");
           return;
@@ -219,7 +219,7 @@ public class FinalShortestPath {
       for(int i=0;i<path.size();i++){
           //  System.out.println(path.get(i).tp);
             if(path.get(i).tp==-1)
-              out.print("\"cluster1d\":"+path.get(i).name);
+              out.print("\"cluster"+path.get(i).name+"\"");
                   if(i<path.size()-1){
                       out.print(",");
                   }
@@ -234,7 +234,11 @@ public class FinalShortestPath {
      int dest=Integer.parseInt(args[1]);   
      int flag=Integer.parseInt(args[2]);
      int topen=Integer.parseInt(args[3]);
-     l3();
+	System.out.println(source);
+	System.out.println(dest);
+System.out.println(flag);
+	System.out.println(topen);     
+	l3();
      if(flag==1){
          source = nodetocluster.indexOf(source);
          dest = nodetocluster.indexOf(dest);

@@ -129,15 +129,19 @@ public class JSONConvV2 {
                     out = new PrintWriter(out7+"/subgraph"+i+"");
                     out1= new PrintWriter(out7+"/map"+i+"");
 		   
-		    int count = 0;		
+		    int count = 0;
+		    for(int j=0; j<cluster.get(i).size();j++){
+			if(!tempid.containsKey(cluster.get(i).get(j)))
+                            tempid.put(cluster.get(i).get(j), j);			
+			}		
                     for(int j=0; j<edges.get(i).size(); j++)
                     {
                         temp1=edges.get(i).get(j).get(0);
                         temp2=edges.get(i).get(j).get(1);
-                        if(!tempid.containsKey(temp1))
+                        /*if(!tempid.containsKey(temp1))
                             tempid.put(temp1, ctr++);
                         if(!tempid.containsKey(temp2))
-                            tempid.put(temp2, ctr++);
+                            tempid.put(temp2, ctr++);*/
                         out.println(tempid.get(temp1)+ "\t" + tempid.get(temp2));
                     }
                     
@@ -145,6 +149,7 @@ public class JSONConvV2 {
 				out1.println(tempid.get(key)+ "\t" + key);
 				count++;
 			}
+		
 		out2.println("labeling_enron_subgraphs/largesubgraphs/cluster"+i+"/subgraph"+i+" "+cluster.get(i).size()+" "+"labeling_enron_subgraphs/largesubgraphs/cluster"+i+"/map"+i+" "+"labeling_enron_subgraphs/largesubgraphs/cluster"+i+"_1");
 		out1.close();
                 } catch (Exception ex) {

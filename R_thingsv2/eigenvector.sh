@@ -33,7 +33,8 @@ do
 echo $i
 name=`cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1| awk -F" " '{print $1}'`
 cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1 | awk -F" " '{print $1,$2}'
-./eigenvector.r `cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1 | awk -F" " '{print $1,$2}' `>/dev/null
+echo `cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1 | awk -F" " '{print $1,$2}' `
+./eigenvector.r `cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1 | awk -F" " '{print $1,$2}' ` >/dev/null
 sed 's/ /\n/g' $name"try" > $name"_cluster"  
 rm `cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1| awk -F" " '{print $1}'`try
 done

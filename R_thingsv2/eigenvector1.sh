@@ -21,5 +21,6 @@ sudo chmod 777 "enron_eigen_1.json"
 sudo rm $1_1
 sudo rm $1_2
 sudo rm $1try
-sudo cp 'enron_eigen_1.json' '/var/www'
+sudo mv "enron_eigen_1.json" "ClusteredGraph1d.json"
+sudo cp 'ClusteredGraph1d.json' '/var/www'
 

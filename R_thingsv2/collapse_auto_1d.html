@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Force-Directed Graph</title>
+    <script src="http://d3js.org/d3.v3.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <style type="text/css">
+
+circle.node {
+  cursor: pointer;
+  stroke: black;
+            }
+            
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+}
+
+line.link {
+  fill: black;
+  stroke: black;
+  stroke-width: 1.5px;
+          }
+
+    </style>
+  </head>
+  <body>
+<table  width="1000" height="500">
+		<tr>
+					
+			<td align=center width=650 height=200>
+				<div id="chart">
+					  <div id='loading' style="margin-top:25%;display:none;">
+						  <img src='ajax-loader.gif'/>
+					  </div>
+
+				</div>
+			</td>
+			
+			<td align="justify" valign="top" style="font-family: Segoe UI Light; font-size: 80%; background-color: #111111; color:#FFFFFF;">
+			 <table  width="330">
+				<tr>
+					<td>
+					
+ 					<select id="Algorithm">
+					  <option>Select...</option>
+					  <option value="EdgeBetween.r">Edge Betweeness</option>
+					  <option value="EigenVector.r">EigenVector</option>
+					  <option value="LabelingWalktrap.r">Labeling WalkTrap</option>
+					  <option value="FastGreedy.r">Fastgreedy</option>
+					  <option value="LabelProp.r">Label Propogation</option>
+					</select>
+					</td><td>
+					<select id="Dataset">
+					  <option>Select...</option>
+					  <option value="DrWho.txt">Dr.Who</option>
+					  <option value="EmailEnron.txt">Enron Email</option>
+					  <option value="SlashDot.txt">Slashdot</option>
+					  <option value="Dblp.txt">Dblp sliced</option>
+					  <option value="WikiVote.txt">Wiki Vote</option>
+					</select>
+					<input type="submit" value="Submit" onclick="SendData()" />
+					
+					</td>
+				</tr>
+				
+					<tr> 
+					<td>Source Vertex:</td><td> <input type='int' id="sourceVertex"></td></tr>
+					<tr><td>Terminal Vertex:</td><td> <input type='int' id="targetVertex"></td></tr>
+					<tr>
+					<td><button type="button" id="ShortestPath" onclick="SP()">Find Shortest Path</button></td>
+					</tr>
+				
+
+				
+				
+			</tr>
+			</table>
+           
+			
+		
+		</tr>
+	
+	</table>
+    <script type="text/javascript">
+
+function SendData(){
+var algo=document.getElementById("Algorithm").value;
+var dataset=document.getElementById("Dataset").value;
+//PHP call
+$('#loading').show();
+  $.ajax({
+		
+                type: "POST",
+                url: "onelevel.php?data="+dataset+"&algo="+algo, //Your required php page
+                success: function(response){
+			$('#loading').hide();
+			loadVisual();
+			                   }
+	  	   
+            });
+
+}
+
+//SPswitch is shortest path switch, 1 means on, 0 means off.
+var ShortPathl1 = [], ShortPathl2 = [],ShortPathLinksl1=[],ShortPathLinksl2=[],SPswitch=0,flag=0;
+function SP(){
+	var SPsource=document.getElementById("sourceVertex").value;
+	var SPtarget=document.getElementById("targetVertex").value;
+	if(SPsource==SPtarget){
+		alert("Source and target can't be same!");
+		return;
+			      }
+	if(parseInt(SPsource)){
+		if(parseInt(SPtarget))
+			flag=1;
+		
+		else if(SPtarget.slice(0,7)=="cluster" && typeof(parseInt(SPtarget.slice(7)))=="number" && parseInt(SPtarget.slice(7))<root.children.length)
+			flag=3;
+													
+			      }
+	else if(SPsource.slice(0,7)=="cluster" && typeof(parseInt(SPsource.slice(7)))=="number"  && parseInt(SPtarget.slice(7))<root.children.length){
+			if(parseInt(SPtarget))
+				flag=2;
+			else if(SPtarget.slice(0,7)=="cluster" && parseInt(SPtarget.slice(7))  && parseInt(SPtarget.slice(7))<root.children.length)
+				flag=0;
+ 									      }
+	else alert("Invalid input");
+	//shortest path using PHP here//
+	if(flag==2)
+		SPsource=SPsource.slice(7);
+	if(flag==3)
+		SPtarget=SPtarget.slice(7);
+	if(flag==0){
+		SPsource=SPsource.slice(7);
+		SPtarget=SPtarget.slice(7);
+		   }
+	$('#loading').show();
+        $.ajax({
+		
+                type: "POST",
+                url: "shortest.php?src="+SPsource+"&target="+SPtarget+"&flag="+flag+"&topen="+opened, //Your required php page
+                success: function(response){
+			alert(response);
+			$('#loading').hide();
+			loadVisual();
+			                   }
+	  	   
+        	});
+	d3.json("ShortestPath.json", function(otherjson) {
+		ShortPathl1=eval(otherjson.level1);
+		ShortPathl2=eval(otherjson.level2);
+		alert(ShortPathl2);
+		SPswitch=1;
+		update();
+					    	         });
+	     }
+
+var w = window.innerWidth,
+    h = window.innerHeight,
+    node,
+    link,
+    root,
+    opened=-1,
+    nodes = [],
+    nodenames = [],
+    clustlinks = [],
+    nodelinks = [],
+    colorcategory=d3.scale.category20();
+
+var force = d3.layout.force()
+    .on("tick", tick)
+    .size([w, h]);
+
+var vis = d3.select("#chart")
+  .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+    .attr("pointer-events", "all")
+  .append('svg:g')
+    .call(d3.behavior.zoom().on("zoom", redraw))
+  .append('svg:g');
+
+vis.append('svg:rect')
+    .attr('width', w)
+    .attr('height', h)
+    .attr('fill', 'white');
+
+
+
+function redraw() {
+  vis.attr("transform",
+      "translate(" + d3.event.translate + ")"
+      + " scale(" + d3.event.scale + ")");
+}  
+
+function loadVisual(){ 
+d3.json("ClusteredGraph1d.json", function(json) {
+  root = json;
+  flatten(root);
+ clustlinks = eval(json.clustlinks);
+ 
+/*
+ var removelinks = [];
+
+ for(var i=0;i<clustlinks.length;i++){
+	if(nodenames.indexOf("cluster"+clustlinks[i].source)==-1 || nodenames.indexOf("cluster"+clustlinks[i].target)==-1) {
+		removelinks.push(i); 
+}
+}
+		
+if(removelinks.length==clustlinks.length)
+	clustlinks=[];
+else	
+ for(var i=0;i<removelinks.length;i++)
+		clustlinks.splice(removelinks[i],1);
+*/				      
+
+alert(root.children.length);
+ for(var i=0;i<root.children.length;i++)
+	  nodelinks.push(eval(json["cluster"+i]));
+
+  	         
+  update();
+  
+});
+}
+
+function update() {
+  // Restart the force layout.
+  force
+      .nodes(nodes)
+      .links(clustlinks)
+      .linkStrength(function(d){if(d.target.name[0]=="c"){return 0.003;} else return 0.5;})
+      .linkDistance(30)
+      .gravity(0.5)
+      .friction(0.7)
+      .charge(function(d){if(d.name[0]=="c"){return -300;} else return -300;})
+      .start();
+
+  // Update the links…
+  link = vis.selectAll("line.link")
+      .data(clustlinks, function(d) { return d.target.name; });
+
+  // Enter any new links.
+  link.enter().append("svg:line",".node")
+      .attr("class", "link")
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; })
+      .attr("source",function(d){ return d.source.name;})
+      .attr("target",function(d){ return d.target.name;})
+      .style("stroke",function(d){
+                                       if(SPswitch==1 && (ShortPathl1.indexOf(parseInt(d.source.name))!=-1 || ShortPathl2.indexOf(d.source.name)!=-1) && (ShortPathl1.indexOf(parseInt(d.target.name))!=-1 || ShortPathl2.indexOf(d.target.name)!=-1)) return "red"; else return "black";})
+      .style("stroke-width", function(d){ return 0.5; });
+      
+  link.append("title")
+      .text(function(d) { return d.source.name +"to"+ d.target.name; });
+
+  // Exit any old links.
+  link.exit().remove();
+
+  // Update the nodes…
+  node = vis.selectAll("circle.node")
+      .data(nodes, function(d) { return d.id; })
+      .style("fill", color);
+
+  // Enter any new nodes.
+  node.enter().append("svg:circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; })
+      .attr("r", function(d) { return 10; })
+      .attr("name", function(d){ return d.name; })
+      .style("fill", color);
+  
+      
+  node.on("click", click)
+      //.on("mouseover", newcolor)
+      .call(force.drag);
+      
+   //node.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; });
+   
+    node.append("title")
+      .text(function(d) { return d.name; });
+      
+
+  // Exit any old nodes.
+  node.exit().remove();
+
+}
+
+
+function tick() {
+  link.attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; });
+	
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+     // .on("doubleclick", newcolor);
+      
+
+}
+
+// Color leaf nodes orange, and packages white or blue.
+function color(d) { 	
+  var code;
+  if(d.parent=="flare") code="#3fada8";
+  else{ code=colorcategory(d.parent.slice(7));
+
+}
+  function CC(){return code;}
+  var teal = d3.rgb(CC());
+  if(d.name == "cluster19" || d.name =="cluster1") return "red";
+  if(d.name == "19078") return teal.brighter(2);
+  if(d.name == "19079") return teal.brighter(1);
+  if(d.color) return d.color;
+  else
+  return d.children ? teal : d.children ? teal.darker(2) : teal.darker(2);
+}
+
+function newcolor(d) {
+  d.color="Red";
+  update();
+}
+
+// Toggle children on click.
+function click(d) {
+  
+  function check(child){ 
+        if(nodes.indexOf(child)==-1) return true;
+        else return false;
+                       }
+
+ if(check(d.children[0])){
+    d.color=color(d);
+    if(opened!=-1 && d.name[0]=='c'){
+	alert("cluster"+opened+" is already open!");
+	return;
+		   		  }
+    flatten(d);
+                         } 
+  else { 
+    d.color=color(d);
+    deflatten(d);
+       }
+  update();
+
+}
+function deflatten(node) {
+ opened=-1;
+ var i=0,parent=node;
+ var temp = parseInt(parent.name.slice(7));
+ var node_arr=nodelinks[temp];
+ var s = [];
+ var t = [];
+ function recurse(child) {
+    
+    if (!child.id) child.id = child.name;
+    if(nodes.indexOf(child)!=-1){
+        nodes.splice(nodes.indexOf(child),1);
+        if(parent.name!="flare") {
+		//clustlinks.splice(clustlinks.indexOf(eval({"source":parent,"target":child,"value":50})),1);     
+		for(var i=0;i<node_arr.length;i++){
+		if(node_arr[i].source==child.name)
+                          s[i]=child;
+		if(node_arr[i].target==child.name)
+                          t[i]=child;
+					  }	 
+				 }
+                               }
+                        }
+ if (node.children) node.children.forEach(recurse);
+if(node.name[0]=="c" ){
+	for(var i=0;i<node_arr.length;i++)
+		clustlinks.splice(clustlinks.indexOf(eval({"source":s[i],"target":t[i],"value":50}))); 
+		     }
+}
+
+
+
+
+// Returns a list of all nodes under the root.
+function flatten(node) {
+
+ if(node.name!="flare")
+	opened=(parseInt(node.name.slice(7)));
+	
+ var i=0,parent=node,j=0;
+ var temp = parseInt(parent.name.slice(7));
+ var node_arr=nodelinks[temp];
+
+ var s = [];
+ var t = [];
+ function recurse(child) {
+    j++;
+	
+ /*   if(parent.name=="flare"){
+	
+	if(child.children.length<1 )
+		 return;
+  
+			    }		
+  */	  	  
+    if(!child.id) child.id = child.name;
+    if(!child.parent) child.parent=parent.name;
+    if(nodes.indexOf(child)==-1){
+        nodes.splice(parseInt(child.id),0,child);
+	nodenames.push(child.name);
+        if(parent.name!="flare"){
+            for(var i=0;i<node_arr.length;i++){
+		if(node_arr[i].source==child.name)
+                          s[i]=child;
+		if(node_arr[i].target==child.name)
+                          t[i]=child;
+		
+					      }	 
+		
+     
+         
+                                }
+                                }
+                          }
+    if(node.children) node.children.forEach(recurse);
+    if(node.name[0]=="c")
+ 	for(var i=0;i<node_arr.length;i++)
+		if(typeof(s[i])!="undefined" && typeof(t[i])!="undefined")
+			clustlinks.push(eval({"source":s[i],"target":t[i],"value":50})); 
+
+		     
+
+}
+    </script>
+  </body>
+</html>

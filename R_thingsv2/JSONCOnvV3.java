@@ -17,7 +17,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author enron.igraph
+ * @author Charu
  */
 public class JSONCOnvV3 {
 
@@ -171,7 +171,7 @@ public class JSONCOnvV3 {
                     if (large.contains(j)) {
 
 
-                        System.err.println(j+" "+ l1clusttonode1.size());
+                      //  System.err.println(j+" "+ l1clusttonode1.size());
                         unmap("labeling_enron_subgraphs/largesubgraphs/cluster" + j + "/map" + j, j);
                         //System.out.println(unmap.get(j));
                         
@@ -204,9 +204,11 @@ public class JSONCOnvV3 {
                                 level1.put(unmap.get(j).get(n), clusterl1);
 
                                 n++;
+                                
 
                             }
                             numnodesl1 = n;
+                            System.out.println(n+"here!!!!!! "+j+" "+ unmap.get(j).size());
                             level1clusttonode.put(j, l1clusttonode);
                             level1nodetoclust.put(j, l1nodetoclust);
                             int flag1 = 0;
@@ -219,17 +221,17 @@ public class JSONCOnvV3 {
                                 if (flag1 != 0) {
                                     out.println(",");
                                 }
-				System.out.println("cluster2d"+j+"cluster1d"+k+ " cluster1d"+ctr1d);
+                               // System.err.println("cluster2d"+j+"cluster1d"+k + ",cluster1d"+ctr1d);
                                 map1d.put("cluster2d"+j+"cluster1d"+k, "cluster1d"+ctr1d);
                                // System.err.println(ctr1d);
                                 l1clusttonode1.put(ctr1d, l1clusttonode.get(k));
                                // l1clusttonode.remove(k);
-                                out.println("{\"name\": \"cluster1d" + ctr1d++ + "\", \"children\": [");
+                                out.println("{\"name\": \"cluster1d" + ctr1d+ "\", \"children\": [");
                                 flag1 = 1;
                               //  //System.out.println(j);
                               //  //System.out.println(l1clusttonode);
                               //  //System.out.println(l1nodetoclust);
-                              //  System.err.println(ctr1d+ " "+ (ctr1d-1)+ " "+ l1clusttonode.keySet());
+                             //  System.err.println (ctr1d+ "and ");
                                 for (int l : l1clusttonode.get(k)) {
                                     {
                                     if (flag != 0) {
@@ -238,14 +240,16 @@ public class JSONCOnvV3 {
                                     //if(unmap.get(j).get(l)==null);
                                    // System.err.println(j +" " +unmap.get(j).get(l) );
                                     out.print("{\"name\":\"" + unmap.get(j).get(l) + "\"}");
-                                    if(!level1.containsKey(unmap.get(j).get(l)))
-                                            System.err.println("whoops");
-                                    level1.put(unmap.get(j).get(l), ctr1d-1);
+                                    if(unmap.get(j).get(l)==null);
+                                            //System.err.println(l+ " whoops "+ unmap.get(j).size());
+                                   // System.err.print(ctr1d+ " ");
+                                    level1.put(unmap.get(j).get(l), k);
 
                                     flag = 1;
 
                                 }
                                 }
+                                ctr1d++;
 
                                 out.print("]}");
                             }
@@ -263,7 +267,6 @@ public class JSONCOnvV3 {
                                 out.println(",");
                             }
                           int nodename=scan2.nextInt();
-//				System.out.println(nodename);
                           map1d.put(nodename+"", "cluster1d"+ctr1d);
                           out.println("{\"name\": \"cluster1d" + ctr1d++ + "\", \"children\": [");
                                
@@ -336,7 +339,7 @@ public class JSONCOnvV3 {
             }
             out.println("\"cluster3d" + i + "\": [");
             if (clusttoedge.containsKey(i)) {
-                System.out.println(clusttoedge.get(i));
+               // System.out.println(clusttoedge.get(i));
                 int flag2 = 0;
                 for (int j = 0; j < clusttoedge.get(i).size(); j++) {
                     if (flag2 != 0) {
@@ -350,6 +353,7 @@ public class JSONCOnvV3 {
             out.println("],");
 
         }
+        
         int edgedtr=0;
         File edgefilel2 = new File("labeling_enron_subgraphs/enron_undir_edgelist");
         inpStream = new FileInputStream(edgefilel2);
@@ -368,7 +372,7 @@ public class JSONCOnvV3 {
            // System.out.println(temps +" "+ tempt);
            // System.out.println(level1.get(s)+ " "+ level1.get(t));
             if (l2nodetoclust.get(t) == l2nodetoclust.get(s)) {
-                edge = new ArrayList<>();
+                edge = new ArrayList<>(2);
                 
               //  System.out.println(s+" "+t);
                
@@ -376,12 +380,9 @@ public class JSONCOnvV3 {
                 edge.add(level1.get(t));
 
                 if (!clusttoedge.containsKey(l2nodetoclust.get(t))) {
-			//System.out.println("Here");
                     clusttoedge.put(l2nodetoclust.get(t), new ArrayList<ArrayList<Integer>>());
                 }
-
                 if(!clusttoedge.get(l2nodetoclust.get(t)).contains(edge)){
-//System.out.println("Heretoo");
                 clusttoedge.get(l2nodetoclust.get(t)).add(edge);
                 }
 
@@ -390,7 +391,7 @@ public class JSONCOnvV3 {
 
         inpStream.close();
 
-
+        System.out.println("level1 "+level1);
         flag3 = 0;
         for (int i = 1; i <= numclustl2; i++) {
             
@@ -402,19 +403,13 @@ public class JSONCOnvV3 {
             out.println("\"cluster2d" + i + "\": [");
           
             if (clusttoedge.containsKey(i)) {
-               // System.out.println(clusttoedge.get(i));
+                System.out.println("data in clusttoedge "+ clusttoedge.get(i));
                 int flag2 = 0;
                 for (int j = 0; j < clusttoedge.get(i).size(); j++) {
-		if(map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(1))==null){
-System.out.println("boo3"+i+ " "+ j);
-		continue;
-}
-	if(map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0))==null){
-	System.out.println("boo"+i+ " "+ j);
-		continue;
-}
-//		System.out.println("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0)+" "+i+" "+j+ ""+map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0)));
-//		System.out.println(i+" "+j+ ""+map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(1)));
+                    if(map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0))==null)
+                    System.out.println("missing val "+i+ " cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0));
+                    if(map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(1))==null)
+                    System.out.println("missing val "+i+ " cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(1));
                     if(!map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(0)).equals(map1d.get("cluster2d"+i+"cluster1d"+clusttoedge.get(i).get(j).get(1)))){
                     if (flag2 != 0) {
                         out.println(",");
@@ -451,7 +446,7 @@ System.out.println("boo3"+i+ " "+ j);
                 flag3 = 0;
                 // //System.out.println("labeling_enron_subgraphs/smallsubgraphs/cluster" + i + "/subgraph" + i);
                 out.println("\"cluster2d" + i + "\": [");
-                //    //System.out.println("enron.igraph");
+                //    //System.out.println("Charu");
 //                    //System.out.println(scan9.nextInt());
                 while (scan9.hasNext()) {
                      if (flag3 != 0) {
@@ -498,7 +493,7 @@ System.out.println("boo3"+i+ " "+ j);
             flag3 = 0;
             
            // System.out.println(clusttoedge.keySet());
-            
+            int ctr=0;
             for (int i : l1clusttonode1.keySet()) {
                 
             // System.out.println(map1d.get("cluster2d"+k+"cluster1d"+i));
@@ -506,8 +501,8 @@ System.out.println("boo3"+i+ " "+ j);
                     out.println(",");
                 }*/
                // System.out.println("boo");
-               // if(i>137)
-               // System.out.println(i+" "+ l1clusttonode1.get(i));
+                if(i>137 && l1clusttonode1.get(i).size()>1)
+               System.out.println(i+", "+ l1clusttonode1.get(i).size()+" "+ l1clusttonode1.get(i));
                 out.println("\"cluster1d"+i+ "\": [");
                 l1++;
                 flag3=1;
@@ -527,8 +522,17 @@ System.out.println("boo3"+i+ " "+ j);
                 }
 
                 out.println("],");
+                ctr=i;
 
             }
+            
+            for(int i=1;i<=ctr1d;i++)
+            {
+                 if(!l1clusttonode1.containsKey(i))
+                 out.println("\"cluster1d"+i+ "\": [],");
+                 
+            }
+            System.out.println(ctr+"1d " +ctr1d);
          //out.println("},");
         
            out.println("\"hierarchy\": ["+l3+", "+l2+", "+ctr1d+"]");
