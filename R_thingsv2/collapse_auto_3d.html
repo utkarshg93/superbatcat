@@ -101,6 +101,7 @@ var w = window.innerWidth,
     groupEnds=[],
     groupPath,
     groupFill,
+    Groups,
     newnodes = [];
 
 function SendData(){
@@ -194,14 +195,16 @@ update();
 function update() {
 	
   // Restart the force layout.
+ 
   force
       .nodes(nodes)
       .links(clustlinks)
       .linkStrength(function(d){if(d.target.name[0]=="c"){return 0.003;} else return 1;})
-      .charge(function(d){if(d.name[0]=="c"){return -300;} else return -10*(parseInt(d.parent.name.slice(9)));})
+      .linkDistance(1)
+      .charge(function(d){if(d.name[0]=="c"){return -300;} else return -1*(parseInt(d.parent.name.slice(9)));})
       .friction(0.7)
       .start();
-	
+  vis.selectAll("path").remove();
   groups = d3.nest().key(function(d) { return d.parent.name }).entries(nodes);
   groupPath = function(d) { return "M" + d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; })).join("L") + "Z"; };
   groupFill = function(d, i) { return color(nodes[nodes.length-1]); };
@@ -255,7 +258,7 @@ function update() {
       
   // Exit any old nodes.
   node.exit().remove();
- 
+
 		}
 
 
@@ -270,7 +273,7 @@ function tick(e) {
       .attr("cy", function(d) { return d.y; })
       .call(force.drag);
 
-var Groups =  vis.selectAll("path")
+Groups =  vis.selectAll("path")
      .data(groups)
      .attr("d", groupPath)
      .enter().insert("path", "circle")
@@ -303,11 +306,6 @@ function color(d) {
 	function CC(){ return code; }
 
 	var teal = d3.rgb(CC());
-	if(d.name == "cluster3d1") return "black";
-	if(d.name == "cluster2d1") return "black";
-	if(d.name == "cluster1d10") return "black";
-
-	if(d.name == "26360") return "pink";
 	if(d.color) return d.color;
 	else return teal ;
 		   }
@@ -321,12 +319,21 @@ function click(d) {
 	        else return false;
 	                     }
 
+	function recurse(d){
+			if(d.children && d.children[0].name[0]=='c'){
+				d.children.forEach(deflatten);
+				d.children.forEach(recurse);
+								    }
+			else return;
+			   }
+
 	 if(check(d.children[0])){
     		d.color=color(d);
 		try{flatten(d);} catch(e) {alert(e);}
                          	 } 
   	else{ 
 		d.color=color(d);
+		recurse(d);
 		deflatten(d);
        	    }
   	update();

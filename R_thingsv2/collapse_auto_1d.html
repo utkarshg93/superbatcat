@@ -136,25 +136,25 @@ function SP(){
 		SPsource=SPsource.slice(7);
 		SPtarget=SPtarget.slice(7);
 		   }
-	$('#loading').show();
+	
         $.ajax({
 		
                 type: "POST",
                 url: "shortest.php?src="+SPsource+"&target="+SPtarget+"&flag="+flag+"&topen="+opened, //Your required php page
                 success: function(response){
-			alert(response);
-			$('#loading').hide();
-			loadVisual();
+			
+	
+			d3.json("ShortestPath.json", function(otherjson) {
+			ShortPathl1=eval(otherjson.level1);
+			ShortPathl2=eval(otherjson.level2);
+			//alert(ShortPathl2+"+"+ShortPathl1);
+			SPswitch=1;
+			update();
+					    	         });
 			                   }
 	  	   
         	});
-	d3.json("ShortestPath.json", function(otherjson) {
-		ShortPathl1=eval(otherjson.level1);
-		ShortPathl2=eval(otherjson.level2);
-		alert(ShortPathl2);
-		SPswitch=1;
-		update();
-					    	         });
+	
 	     }
 
 var w = window.innerWidth,
@@ -201,7 +201,7 @@ d3.json("ClusteredGraph1d.json", function(json) {
   flatten(root);
  clustlinks = eval(json.clustlinks);
  
-/*
+
  var removelinks = [];
 
  for(var i=0;i<clustlinks.length;i++){
@@ -215,9 +215,9 @@ if(removelinks.length==clustlinks.length)
 else	
  for(var i=0;i<removelinks.length;i++)
 		clustlinks.splice(removelinks[i],1);
-*/				      
+			      
 
-alert(root.children.length);
+
  for(var i=0;i<root.children.length;i++)
 	  nodelinks.push(eval(json["cluster"+i]));
 
@@ -243,6 +243,36 @@ function update() {
   link = vis.selectAll("line.link")
       .data(clustlinks, function(d) { return d.target.name; });
 
+
+ /* if(SPswitch==1){
+	for(var i=0;i<ShortPathl1.length;i++){
+		link.enter().append("svg:line",".node")
+      		.attr("class", "link")
+		.attr("x1", function(d) { return nodes[nodenames.indexOf(ShortPathl1[i])].x; })
+	        .attr("y1", function(d) { return nodes[nodenames.indexOf(ShortPathl1[i])].y; })
+	        .attr("x2", function(d) { return nodes[nodenames.indexOf(ShortPathl1[i+1])].x; })
+		.attr("y2", function(d) { return nodes[nodenames.indexOf(ShortPathl1[i+1])].y; })
+	        .attr("source",function(d){ return nodes[nodenames.indexOf(ShortPathl1[i])];})
+	        .attr("target",function(d){ return nodes[nodenames.indexOf(ShortPathl1[i+1])];})
+	        .style("stroke",function(d){ return "red";})
+		.style("stroke-width", function(d){ return "0.5";});
+					     }
+
+	for(var i=0;i<ShortPathl2.length;i++){
+		alert("executing");
+		link.enter().append("svg:line",".node")
+      		.attr("class", "link")
+		.attr("x1", function(d) { return nodes[nodenames.indexOf(ShortPathl2[i])].x; })
+	        .attr("y1", function(d) { return nodes[nodenames.indexOf(ShortPathl2[i])].y; })
+	        .attr("x2", function(d) { return nodes[nodenames.indexOf(ShortPathl2[i+1])].x; })
+		.attr("y2", function(d) { return nodes[nodenames.indexOf(ShortPathl2[i+1])].y; })
+	        .attr("source",function(d){ return nodes[nodenames.indexOf(ShortPathl2[i])];})
+	        .attr("target",function(d){ return nodes[nodenames.indexOf(ShortPathl2[i+1])];})
+	        .style("stroke",function(d){ return "red";})
+		.style("stroke-width", function(d){ return "0.5";});
+					     }
+		}
+*/
   // Enter any new links.
   link.enter().append("svg:line",".node")
       .attr("class", "link")
@@ -253,9 +283,11 @@ function update() {
       .attr("source",function(d){ return d.source.name;})
       .attr("target",function(d){ return d.target.name;})
       .style("stroke",function(d){
-                                       if(SPswitch==1 && (ShortPathl1.indexOf(parseInt(d.source.name))!=-1 || ShortPathl2.indexOf(d.source.name)!=-1) && (ShortPathl1.indexOf(parseInt(d.target.name))!=-1 || ShortPathl2.indexOf(d.target.name)!=-1)) return "red"; else return "black";})
+                                       if(SPswitch==1 && ((ShortPathl1.indexOf(parseInt(d.source.name))!=-1 && ShortPathl1.indexOf(parseInt(d.target.name))==ShortPathl1.indexOf(parseInt(d.source.name))+1) || (ShortPathl2.indexOf(d.source.name)!=-1 && ShortPathl2.indexOf(d.target.name)==ShortPathl2.indexOf(d.source.name)+1))){ return "red";} else return "black";})
       .style("stroke-width", function(d){ return 0.5; });
       
+  
+
   link.append("title")
       .text(function(d) { return d.source.name +"to"+ d.target.name; });
 
@@ -287,6 +319,7 @@ function update() {
       .text(function(d) { return d.name; });
       
 
+
   // Exit any old nodes.
   node.exit().remove();
 
@@ -309,28 +342,29 @@ function tick() {
 // Color leaf nodes orange, and packages white or blue.
 function color(d) { 	
   var code;
+  if(SPswitch==1 && ShortPathl1.indexOf(parseInt(d.id))!=-1)
+		return "Red";
+							  
+  if(SPswitch==1 && ShortPathl2.indexOf(d.id)!=-1 && nodes.indexOf(d.children[0])==-1)
+		return "Red";
   if(d.parent=="flare") code="#3fada8";
   else{ code=colorcategory(d.parent.slice(7));
 
 }
   function CC(){return code;}
   var teal = d3.rgb(CC());
-  if(d.name == "cluster19" || d.name =="cluster1") return "red";
-  if(d.name == "19078") return teal.brighter(2);
-  if(d.name == "19079") return teal.brighter(1);
   if(d.color) return d.color;
   else
   return d.children ? teal : d.children ? teal.darker(2) : teal.darker(2);
 }
 
-function newcolor(d) {
-  d.color="Red";
-  update();
-}
 
 // Toggle children on click.
 function click(d) {
-  
+ if(d.color!="yellow")
+	  d.color = "yellow";
+ else
+	d.color = "#3fada8";
   function check(child){ 
         if(nodes.indexOf(child)==-1) return true;
         else return false;
@@ -399,18 +433,18 @@ function flatten(node) {
  function recurse(child) {
     j++;
 	
- /*   if(parent.name=="flare"){
+    if(parent.name=="flare"){
 	
-	if(child.children.length<1 )
+	if(child.children.length<2)
 		 return;
   
 			    }		
-  */	  	  
+  	  	  
     if(!child.id) child.id = child.name;
     if(!child.parent) child.parent=parent.name;
     if(nodes.indexOf(child)==-1){
         nodes.splice(parseInt(child.id),0,child);
-	nodenames.push(child.name);
+	nodenames.splice(parseInt(child.id),0,child.name);
         if(parent.name!="flare"){
             for(var i=0;i<node_arr.length;i++){
 		if(node_arr[i].source==child.name)

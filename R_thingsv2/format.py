@@ -23,7 +23,7 @@ for i in Second:
     l.append(b)
     m.append(l)
 
-f=open("enron_undir_edgelist","w")
+f=open("enron_undir","w")
 d=c.split()
 f.write(str(int(d[0])-1))
 f.write(" ")

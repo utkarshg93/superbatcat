@@ -182,6 +182,7 @@ public class FinalShortestPath {
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
       PrintWriter out = new PrintWriter("ShortestPath.json");
+	System.out.println(path.size());
       out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[");
       if(path.size()>1)
        for(int i=0;i<path.size();i++){
@@ -200,7 +201,7 @@ public class FinalShortestPath {
      shortest.computePaths(clusters.get(clustermapping.indexOf(source)),clusters.get(clustermapping.indexOf(dest)));
      List<Vertex> path = shortest.getShortestPathTo(clusters.get(clustermapping.indexOf(dest)));
       PrintWriter out = new PrintWriter("ShortestPath.json"); 
-     if(path.size()<2){
+     if(path.size()==1){
           out.print("{\"name\":\"sp\",\"level1\":[],\"level2\":[]}");
           return;
       }
@@ -240,14 +241,14 @@ System.out.println(flag);
 	System.out.println(topen);     
 	l3();
      if(flag==1){
-         source = nodetocluster.indexOf(source);
-         dest = nodetocluster.indexOf(dest);
+         source = nodetocluster.get(source);
+         dest = nodetocluster.get(dest);
      }
      if(flag==2){
-         source = nodetocluster.indexOf(source);
+         source = nodetocluster.get(source);
      }
      if(flag==3){
-         dest = nodetocluster.indexOf(dest);
+         dest = nodetocluster.get(dest);
      }
      if(topen==-1){
       compute(source,dest);

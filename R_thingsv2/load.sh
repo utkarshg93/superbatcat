@@ -8,8 +8,10 @@ if [[ $1 == "neo4j" ]]
 then
 sudo bash load3.sh
 else 
-cp "stuff/Datasets/"$1 "enron_undir_edgelist"
+cp "stuff/Datasets/"$1 "enron_undir"
 fi
+javac UndirToDir.java
+java UndirToDir
 cp "stuff/R_scripts/"$2 "eigenvector.r"
 chmod 777 "eigenvector.r"
 sudo bash eigenvector.sh "enron_undir_edgelist" 
