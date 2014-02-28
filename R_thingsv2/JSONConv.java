@@ -33,7 +33,11 @@ public class JSONConv {
             inpStream = new FileInputStream(inputFile);
             Scanner scan = new Scanner(inpStream);
             while (scan.hasNext()) {
-                c = scan.nextInt();
+                c = scan.nextInt()-1;
+		if(c==-1){
+			System.out.println("boo "+c);
+			System.exit(0);
+		}
                 if (c>max)
                     max=c;
                 node.put(nodes, c);
@@ -70,12 +74,12 @@ public class JSONConv {
                      a.add(j);
                      a.add(k);
                      edges.get(node.get(j)).add(a);
-                    // System.out.println("-");
+                     System.out.println("-");
                  }
                 
                  else
                  {
-                     //System.out.println("!");
+                     System.out.println(node.get(j)+ " "+node.get(k));
                      wt[node.get(j)][node.get(k)]++;
                      wt[node.get(k)][node.get(j)]++;
                      
@@ -88,17 +92,20 @@ public class JSONConv {
     }
 
     public static void main(String[] args) {
+System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
         FileInputStream inpStream = null;
-
+	System.out.println(max);
         try {
             // TODO code application logic hereFile inputFile = new File(input);
 
             String input, output="enron_eigen_1.json";
-            map( "enron_undir_edgelist_connected","enron_undir_edgelist");
+            map( "prateek","enron_undir_edgelist");
            PrintWriter outFile = null;
+		System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
            outFile = new PrintWriter(output);
            outFile.printf("{\"name\": \"flare\", \"children\": [\n");
-           for(int i=0;i<max;i++){
+	System.out.println(max);
+           for(int i=0;i<=max;i++){
 	   outFile.printf("{\"name\": \"cluster%d\", \"children\": [ \n",i);
 	if(cluster.get(i)==null){
 
@@ -112,7 +119,7 @@ public class JSONConv {
                 
 	        outFile.printf("{\"name\": \"%d\" }",cluster.get(i).get(j));
         }
-        if(i!=max-1)
+        if(i!=max)
 		outFile.printf("] },\n");
  }
 
@@ -141,7 +148,7 @@ public class JSONConv {
 
  int temp1=0;temp=0;
  
- for(int i=0; i< max; i++)
+ for(int i=0; i<=max; i++)
  {
      if(i!=0)
        outFile.printf("],\n");

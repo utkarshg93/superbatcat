@@ -1,0 +1,7001 @@
+
+
+
+
+0Source: 23413 dest: 18338 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+1Source: 1317 dest: 18575 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 9898 dest: 29079 Cluster Source: 2 Cluster dest:1757
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 14762 dest: 34402 Cluster Source: 1377 Cluster dest:1226
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1226"]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 36501 dest: 2433 Cluster Source: 2520 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 34419 dest: 29110 Cluster Source: 1235 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 3780 dest: 21970 Cluster Source: 106 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+1Source: 14691 dest: 9982 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+1Source: 34523 dest: 7010 Cluster Source: 1256 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+2Source: 19089 dest: 28558 Cluster Source: 2 Cluster dest:1748
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+2Source: 2679 dest: 23999 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+2Source: 32933 dest: 15565 Cluster Source: 1134 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+3Source: 22203 dest: 33106 Cluster Source: 2 Cluster dest:1172
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster1172"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2699","cluster5946","cluster1172"]}
+
+
+
+4Source: 8114 dest: 36074 Cluster Source: 1377 Cluster dest:1353
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1353"]}
+Opening:-1
+Nothing to open
+
+
+
+4Source: 7569 dest: 22395 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+4Source: 6960 dest: 722 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+4Source: 20543 dest: 35844 Cluster Source: 2 Cluster dest:2392
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+4Source: 10330 dest: 6306 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+5Source: 24642 dest: 32299 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+5Source: 8082 dest: 24556 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+6Source: 35428 dest: 16419 Cluster Source: 2349 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+6Source: 12766 dest: 23417 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+6Source: 32470 dest: 31280 Cluster Source: 2 Cluster dest:2053
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 24742 dest: 26968 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 11670 dest: 32916 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 3280 dest: 23551 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 12521 dest: 1775 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 2745 dest: 12572 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+7Source: 7244 dest: 22107 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+7Source: 7434 dest: 27764 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+8Source: 1332 dest: 22770 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+8Source: 34564 dest: 2721 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+9Source: 5466 dest: 21416 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+9Source: 1538 dest: 18822 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+10Source: 6721 dest: 14762 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+10Source: 28124 dest: 17293 Cluster Source: 940 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+10Source: 6181 dest: 15907 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+10Source: 32111 dest: 3575 Cluster Source: 2 Cluster dest:99
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster99"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2579","cluster99"]}
+
+
+
+10Source: 36677 dest: 33846 Cluster Source: 2570 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+11Source: 30187 dest: 25419 Cluster Source: 2 Cluster dest:1624
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+11Source: 4730 dest: 19981 Cluster Source: 1377 Cluster dest:549
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507","cluster549"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507","cluster549"]}
+
+
+
+11Source: 28981 dest: 796 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+12Source: 30628 dest: 24387 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+13Source: 28694 dest: 14460 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+14Source: 9960 dest: 27223 Cluster Source: 1507 Cluster dest:14
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster14"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377","cluster14"]}
+
+
+
+15Source: 29001 dest: 35221 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+15Source: 15836 dest: 23003 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+15Source: 30676 dest: 19144 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+16Source: 1917 dest: 4070 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+16Source: 8347 dest: 4996 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+16Source: 22719 dest: 11908 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+17Source: 18803 dest: 33049 Cluster Source: 2 Cluster dest:1165
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster1392","cluster1165"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster2576","cluster1392","cluster1165"]}
+
+
+
+18Source: 25798 dest: 19568 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+18Source: 31046 dest: 16827 Cluster Source: 1950 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+18Source: 3358 dest: 21946 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+18Source: 18201 dest: 25613 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+18Source: 21496 dest: 6914 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+18Source: 20659 dest: 7834 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+19Source: 3737 dest: 18832 Cluster Source: 2 Cluster dest:443
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster443"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster443"]}
+
+
+
+20Source: 7460 dest: 4017 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+20Source: 8591 dest: 1466 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+20Source: 30921 dest: 14430 Cluster Source: 1913 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+20Source: 6331 dest: 29689 Cluster Source: 1377 Cluster dest:1788
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+20Source: 666 dest: 29357 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+21Source: 33001 dest: 6243 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+22Source: 28784 dest: 12150 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 25942 dest: 31999 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 5567 dest: 6806 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 30196 dest: 28975 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 25568 dest: 34370 Cluster Source: 791 Cluster dest:1218
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 35196 dest: 16924 Cluster Source: 122 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 22628 dest: 13307 Cluster Source: 138 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster138","cluster1377"]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 17155 dest: 30724 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 33273 dest: 20651 Cluster Source: 2161 Cluster dest:1507
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 12674 dest: 24045 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 24813 dest: 9130 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 17151 dest: 11664 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+22Source: 31377 dest: 4434 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+22Source: 1230 dest: 11919 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+23Source: 20362 dest: 15084 Cluster Source: 2 Cluster dest:385
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster385"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster2684","cluster385"]}
+
+
+
+24Source: 27853 dest: 12660 Cluster Source: 1731 Cluster dest:217
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 10607 dest: 10338 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 30383 dest: 32591 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 35935 dest: 32511 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 19104 dest: 3361 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 31092 dest: 15520 Cluster Source: 1972 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 15030 dest: 21753 Cluster Source: 365 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+24Source: 16220 dest: 35235 Cluster Source: 2 Cluster dest:870
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster870"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2604","cluster3280","cluster870"]}
+
+
+
+25Source: 29426 dest: 3296 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+25Source: 10060 dest: 1223 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+26Source: 8571 dest: 26205 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+26Source: 19324 dest: 6272 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+27Source: 26783 dest: 8438 Cluster Source: 850 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+27Source: 17544 dest: 16247 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+27Source: 13016 dest: 5453 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+27Source: 1346 dest: 9092 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+28Source: 21983 dest: 13075 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+28Source: 36090 dest: 177 Cluster Source: 2422 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+28Source: 36220 dest: 345 Cluster Source: 1355 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+28Source: 4897 dest: 10709 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+28Source: 15110 dest: 755 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+28Source: 27323 dest: 24705 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+29Source: 22557 dest: 2265 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+30Source: 4814 dest: 16448 Cluster Source: 1507 Cluster dest:1507
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 6005 dest: 13096 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 6637 dest: 13560 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 13336 dest: 5586 Cluster Source: 252 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 17259 dest: 15024 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 12027 dest: 10194 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 8605 dest: 8287 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+30Source: 7833 dest: 32360 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+30Source: 29880 dest: 19474 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+31Source: 11048 dest: 35175 Cluster Source: 1507 Cluster dest:2327
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+31Source: 29053 dest: 31089 Cluster Source: 2 Cluster dest:1971
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+31Source: 30988 dest: 29400 Cluster Source: 1934 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+31Source: 2574 dest: 5339 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+31Source: 30503 dest: 26526 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+32Source: 32975 dest: 10191 Cluster Source: 2134 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+32Source: 6659 dest: 11646 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+32Source: 2810 dest: 30943 Cluster Source: 2 Cluster dest:1919
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+32Source: 32377 dest: 30568 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+32Source: 8956 dest: 15073 Cluster Source: 1377 Cluster dest:382
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster382"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster382"]}
+
+
+
+32Source: 20171 dest: 3507 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+33Source: 16335 dest: 336 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+33Source: 7162 dest: 31304 Cluster Source: 2 Cluster dest:2064
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 4113 dest: 34706 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 25149 dest: 6212 Cluster Source: 1589 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 33239 dest: 1125 Cluster Source: 2153 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 29476 dest: 10225 Cluster Source: 1772 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 14396 dest: 1487 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 20766 dest: 23105 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 7215 dest: 12076 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+34Source: 16171 dest: 29607 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+34Source: 4820 dest: 8439 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+34Source: 25878 dest: 21973 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+35Source: 33267 dest: 5974 Cluster Source: 751 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+35Source: 16468 dest: 28711 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+35Source: 19645 dest: 10297 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+35Source: 17420 dest: 3966 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 15112 dest: 13061 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 66 dest: 21676 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 28783 dest: 8427 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 10862 dest: 20793 Cluster Source: 1508 Cluster dest:595
+{"name":"sp","level1":[],"level2":["cluster1508","cluster595"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 30745 dest: 27083 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 28530 dest: 9254 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 13363 dest: 22272 Cluster Source: 1519 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+36Source: 3827 dest: 31526 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+36Source: 27670 dest: 30711 Cluster Source: 1707 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+37Source: 11529 dest: 3641 Cluster Source: 1377 Cluster dest:102
+{"name":"sp","level1":[],"level2":["cluster1377","cluster102"]}
+Opening:-1
+Nothing to open
+
+
+
+37Source: 3556 dest: 29328 Cluster Source: 1508 Cluster dest:1766
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+37Source: 28922 dest: 9075 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+38Source: 21777 dest: 27206 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+38Source: 22133 dest: 21759 Cluster Source: 740 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+39Source: 16480 dest: 24329 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+40Source: 4828 dest: 29964 Cluster Source: 1377 Cluster dest:1815
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+40Source: 5865 dest: 22677 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+40Source: 416 dest: 15964 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+40Source: 23814 dest: 228 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+41Source: 13157 dest: 2466 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 24044 dest: 213 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 24254 dest: 32825 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 32071 dest: 12085 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 7108 dest: 2985 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 11073 dest: 12994 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 18562 dest: 31670 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+41Source: 23878 dest: 187 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+42Source: 4326 dest: 8882 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+42Source: 10478 dest: 16944 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+43Source: 3552 dest: 22858 Cluster Source: 2 Cluster dest:216
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster216"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster216"]}
+
+
+
+43Source: 18675 dest: 24965 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+44Source: 5867 dest: 13913 Cluster Source: 1508 Cluster dest:183
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster183"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster183"]}
+
+
+
+44Source: 26598 dest: 5981 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+44Source: 6572 dest: 35992 Cluster Source: 1377 Cluster dest:2410
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+45Source: 26122 dest: 30781 Cluster Source: 2 Cluster dest:1108
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster1108"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2940","cluster1108"]}
+
+
+
+45Source: 8740 dest: 29672 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+46Source: 17404 dest: 9062 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+46Source: 32101 dest: 24935 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+47Source: 24591 dest: 29347 Cluster Source: 1377 Cluster dest:1019
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster1019"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster1019"]}
+
+
+
+47Source: 20680 dest: 29389 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+48Source: 31235 dest: 15795 Cluster Source: 2031 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+48Source: 27871 dest: 24788 Cluster Source: 2 Cluster dest:778
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster778"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2633","cluster4193","cluster778"]}
+
+
+
+49Source: 4509 dest: 28609 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+49Source: 32488 dest: 14932 Cluster Source: 2 Cluster dest:324
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster324"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster2684","cluster324"]}
+
+
+
+50Source: 23103 dest: 35183 Cluster Source: 1377 Cluster dest:2331
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+50Source: 31181 dest: 24565 Cluster Source: 2008 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+50Source: 15888 dest: 30386 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+50Source: 8486 dest: 18180 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+50Source: 8294 dest: 4917 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+51Source: 16117 dest: 12016 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+51Source: 16008 dest: 35779 Cluster Source: 1507 Cluster dest:1186
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster1186"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508","cluster1186"]}
+
+
+
+51Source: 35682 dest: 10712 Cluster Source: 728 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+52Source: 30485 dest: 12633 Cluster Source: 1377 Cluster dest:216
+{"name":"sp","level1":[],"level2":["cluster1377","cluster216"]}
+Opening:-1
+Nothing to open
+
+
+
+52Source: 3193 dest: 23205 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+52Source: 33868 dest: 25682 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+52Source: 19316 dest: 564 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+52Source: 17974 dest: 14445 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+53Source: 4597 dest: 30448 Cluster Source: 1377 Cluster dest:1086
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1086"]}
+Opening:-1
+Nothing to open
+
+
+
+53Source: 26286 dest: 1124 Cluster Source: 1669 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+53Source: 23056 dest: 17947 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+54Source: 5255 dest: 33087 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+54Source: 12492 dest: 4175 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+54Source: 4677 dest: 9896 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+54Source: 14697 dest: 3961 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+54Source: 28597 dest: 31996 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+55Source: 14697 dest: 4678 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+55Source: 20389 dest: 6627 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+56Source: 18322 dest: 28647 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+56Source: 36435 dest: 33578 Cluster Source: 2488 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+56Source: 25066 dest: 23027 Cluster Source: 1588 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+56Source: 16360 dest: 16451 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+57Source: 22837 dest: 10537 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+57Source: 8332 dest: 1876 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+57Source: 20196 dest: 15660 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+58Source: 26510 dest: 31145 Cluster Source: 2 Cluster dest:1997
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+58Source: 451 dest: 5102 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+58Source: 2282 dest: 29620 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+58Source: 32526 dest: 27586 Cluster Source: 2 Cluster dest:1699
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+58Source: 17815 dest: 705 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+58Source: 5524 dest: 16734 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 31151 dest: 20250 Cluster Source: 2000 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 6378 dest: 5430 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 6102 dest: 26181 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 23026 dest: 29023 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 2944 dest: 20516 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 16740 dest: 24911 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 18954 dest: 31066 Cluster Source: 1377 Cluster dest:1959
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 15300 dest: 14780 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+59Source: 25256 dest: 30200 Cluster Source: 2 Cluster dest:1067
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster1067"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster1067"]}
+
+
+
+60Source: 28032 dest: 33604 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+60Source: 638 dest: 30545 Cluster Source: 1508 Cluster dest:1106
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster1106"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster1106"]}
+
+
+
+60Source: 5139 dest: 13944 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+60Source: 14113 dest: 7944 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+61Source: 26502 dest: 4455 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+62Source: 11640 dest: 20610 Cluster Source: 180 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+62Source: 4622 dest: 5862 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+62Source: 8956 dest: 25026 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+63Source: 8786 dest: 35751 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+63Source: 26097 dest: 15100 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+64Source: 6611 dest: 2267 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+64Source: 26674 dest: 17878 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+65Source: 11339 dest: 28246 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+65Source: 18347 dest: 9444 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+66Source: 2067 dest: 17013 Cluster Source: 1377 Cluster dest:1488
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507","cluster1488"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507","cluster1488"]}
+
+
+
+66Source: 36459 dest: 18316 Cluster Source: 2500 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+67Source: 32282 dest: 30215 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+67Source: 30599 dest: 27295 Cluster Source: 2 Cluster dest:91
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster91"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2579","cluster91"]}
+
+
+
+67Source: 4120 dest: 35961 Cluster Source: 1377 Cluster dest:2403
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+68Source: 10772 dest: 15381 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+68Source: 17500 dest: 5436 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+68Source: 9185 dest: 5368 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+68Source: 17312 dest: 20061 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+68Source: 35080 dest: 22568 Cluster Source: 1285 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+69Source: 36197 dest: 19433 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+70Source: 21223 dest: 17261 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+71Source: 32254 dest: 19208 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+72Source: 29257 dest: 29821 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+72Source: 1488 dest: 34092 Cluster Source: 1377 Cluster dest:2235
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+72Source: 2797 dest: 10708 Cluster Source: 27 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+72Source: 4618 dest: 15924 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+73Source: 4463 dest: 14410 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+73Source: 22957 dest: 31876 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+73Source: 13624 dest: 22847 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+73Source: 23103 dest: 1145 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+74Source: 16447 dest: 34785 Cluster Source: 1508 Cluster dest:2272
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+74Source: 2056 dest: 17542 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+74Source: 12650 dest: 13936 Cluster Source: 1508 Cluster dest:267
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster267"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster267"]}
+
+
+
+74Source: 19523 dest: 12907 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+75Source: 5050 dest: 5629 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+75Source: 9107 dest: 17603 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+75Source: 30159 dest: 13645 Cluster Source: 1870 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+75Source: 739 dest: 23855 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+75Source: 22738 dest: 26128 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+76Source: 23065 dest: 34159 Cluster Source: 2 Cluster dest:2246
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+76Source: 21048 dest: 25452 Cluster Source: 1507 Cluster dest:1637
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+76Source: 36085 dest: 12734 Cluster Source: 1353 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+76Source: 6717 dest: 6034 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+77Source: 34448 dest: 10282 Cluster Source: 1091 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1091","cluster1377","cluster19","cluster1507"]}
+Opening:1377
+
+
+
+
+77Source: 36503 dest: 22310 Cluster Source: 2520 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+77Source: 35987 dest: 10496 Cluster Source: 2410 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+77Source: 27075 dest: 19560 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+77Source: 4550 dest: 35849 Cluster Source: 1377 Cluster dest:2395
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+77Source: 34984 dest: 12543 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+77Source: 33926 dest: 10936 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+78Source: 35160 dest: 32838 Cluster Source: 2320 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+78Source: 849 dest: 23296 Cluster Source: 13 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+78Source: 2743 dest: 13591 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+78Source: 20377 dest: 31362 Cluster Source: 2 Cluster dest:2090
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+78Source: 13214 dest: 19238 Cluster Source: 2 Cluster dest:437
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster437"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster437"]}
+
+
+
+79Source: 14998 dest: 27680 Cluster Source: 351 Cluster dest:1712
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+79Source: 22819 dest: 11356 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+79Source: 4462 dest: 18150 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+80Source: 26217 dest: 8947 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+81Source: 10247 dest: 28303 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+82Source: 23491 dest: 3967 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+82Source: 29169 dest: 15047 Cluster Source: 999 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+82Source: 21901 dest: 25153 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+82Source: 31965 dest: 25560 Cluster Source: 2 Cluster dest:1651
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+83Source: 10748 dest: 29042 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+83Source: 543 dest: 25788 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+83Source: 6967 dest: 3046 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+84Source: 35977 dest: 35644 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+84Source: 1631 dest: 19014 Cluster Source: 1377 Cluster dest:446
+{"name":"sp","level1":[],"level2":["cluster1377","cluster446"]}
+Opening:-1
+Nothing to open
+
+
+
+84Source: 638 dest: 22607 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+84Source: 15681 dest: 25634 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+84Source: 3950 dest: 20939 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+85Source: 10080 dest: 19778 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+86Source: 13141 dest: 30280 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+86Source: 27083 dest: 18951 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+87Source: 28236 dest: 17757 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+87Source: 20071 dest: 21636 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+87Source: 21053 dest: 23021 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+88Source: 15848 dest: 15889 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+88Source: 5692 dest: 4791 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+89Source: 22751 dest: 12075 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+90Source: 36619 dest: 13347 Cluster Source: 442 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster442","cluster1377","cluster450","cluster1508"]}
+Opening:1377
+
+
+
+
+90Source: 22537 dest: 9945 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+90Source: 28937 dest: 108 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 31357 dest: 14107 Cluster Source: 2088 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 23439 dest: 35710 Cluster Source: 2 Cluster dest:2382
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 11832 dest: 21414 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 5654 dest: 5754 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 33390 dest: 28510 Cluster Source: 2 Cluster dest:1743
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+91Source: 8057 dest: 21882 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+91Source: 15865 dest: 32916 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+91Source: 996 dest: 21754 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+92Source: 30399 dest: 26301 Cluster Source: 2 Cluster dest:1675
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+92Source: 18843 dest: 14221 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+92Source: 6570 dest: 35291 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+92Source: 5219 dest: 13566 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+92Source: 17088 dest: 18522 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+93Source: 20038 dest: 18016 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+94Source: 26513 dest: 17119 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+95Source: 8036 dest: 14138 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+96Source: 17235 dest: 29889 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+96Source: 27396 dest: 23061 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+96Source: 32281 dest: 32520 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+97Source: 25370 dest: 6289 Cluster Source: 1606 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+97Source: 3690 dest: 23575 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+97Source: 15520 dest: 25715 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+97Source: 30762 dest: 14384 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+98Source: 2366 dest: 25114 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+98Source: 5934 dest: 8276 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+98Source: 7055 dest: 3404 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+99Source: 18071 dest: 35298 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+100Source: 33575 dest: 18002 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+101Source: 2355 dest: 24118 Cluster Source: 20 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster20","cluster1377","cluster2"]}
+Opening:1377
+
+
+
+
+101Source: 22939 dest: 10824 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+101Source: 21056 dest: 14311 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+102Source: 22670 dest: 9966 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+103Source: 9758 dest: 3423 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+103Source: 13611 dest: 7206 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+103Source: 13587 dest: 19931 Cluster Source: 2 Cluster dest:517
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster517"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2708","cluster517"]}
+
+
+
+103Source: 35217 dest: 21928 Cluster Source: 803 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+104Source: 35980 dest: 15706 Cluster Source: 152 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+104Source: 16353 dest: 31832 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+104Source: 35271 dest: 35187 Cluster Source: 2 Cluster dest:2333
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+104Source: 9808 dest: 19116 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+104Source: 95 dest: 29309 Cluster Source: 1508 Cluster dest:1013
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster1013"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster1013"]}
+
+
+
+104Source: 26813 dest: 28087 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+105Source: 11699 dest: 21505 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+105Source: 10391 dest: 28250 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+105Source: 31670 dest: 22623 Cluster Source: 2 Cluster dest:138
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster138"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster138"]}
+
+
+
+106Source: 23131 dest: 10577 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+106Source: 36516 dest: 34689 Cluster Source: 2527 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+106Source: 26043 dest: 32580 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+106Source: 1514 dest: 936 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+106Source: 26420 dest: 5 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+107Source: 33797 dest: 8442 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+107Source: 8336 dest: 26757 Cluster Source: 149 Cluster dest:132
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+107Source: 32328 dest: 22641 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+107Source: 34229 dest: 24434 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+108Source: 643 dest: 32549 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+109Source: 26956 dest: 15630 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+109Source: 13523 dest: 31452 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+109Source: 18148 dest: 18097 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+109Source: 35712 dest: 29916 Cluster Source: 2382 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+109Source: 16936 dest: 28677 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+109Source: 14101 dest: 5998 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+109Source: 23483 dest: 849 Cluster Source: 2 Cluster dest:13
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster13"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster13"]}
+
+
+
+110Source: 28239 dest: 1588 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+110Source: 7079 dest: 20464 Cluster Source: 2 Cluster dest:484
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster484"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2708","cluster484"]}
+
+
+
+110Source: 12453 dest: 11074 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+110Source: 31999 dest: 12525 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+111Source: 2350 dest: 23537 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+111Source: 6008 dest: 30352 Cluster Source: 1377 Cluster dest:1891
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+111Source: 12732 dest: 30755 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+111Source: 2277 dest: 16227 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+112Source: 3854 dest: 8862 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+112Source: 22376 dest: 22568 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+113Source: 35749 dest: 15543 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+113Source: 12828 dest: 2081 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+113Source: 7170 dest: 14002 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+114Source: 24179 dest: 20720 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+114Source: 2667 dest: 7128 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+114Source: 3979 dest: 17319 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+114Source: 20050 dest: 30976 Cluster Source: 1507 Cluster dest:1932
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+115Source: 11056 dest: 2543 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+116Source: 29310 dest: 340 Cluster Source: 1013 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 23091 dest: 22614 Cluster Source: 2 Cluster dest:1567
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 35192 dest: 29051 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 11860 dest: 9224 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 27645 dest: 31436 Cluster Source: 913 Cluster dest:2095
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 8224 dest: 2853 Cluster Source: 1377 Cluster dest:61
+{"name":"sp","level1":[],"level2":["cluster1377","cluster61"]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 11429 dest: 16329 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 33558 dest: 13410 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+116Source: 16755 dest: 3995 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+117Source: 30692 dest: 34633 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+117Source: 23797 dest: 31960 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+117Source: 5377 dest: 32057 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+117Source: 29262 dest: 33730 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+118Source: 11002 dest: 34362 Cluster Source: 1507 Cluster dest:1220
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster1220"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377","cluster1220"]}
+
+
+
+119Source: 17632 dest: 6572 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+119Source: 7061 dest: 18145 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+120Source: 26731 dest: 32397 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+120Source: 31512 dest: 25203 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+121Source: 3193 dest: 20195 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+121Source: 35820 dest: 20047 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+122Source: 10954 dest: 22157 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+122Source: 6005 dest: 28396 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+123Source: 11079 dest: 6499 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+123Source: 32169 dest: 29938 Cluster Source: 2 Cluster dest:1060
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster1060"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster4701","cluster1060"]}
+
+
+
+123Source: 28817 dest: 11147 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+124Source: 7584 dest: 17308 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+124Source: 24611 dest: 5949 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+124Source: 30956 dest: 10256 Cluster Source: 1924 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+125Source: 15196 dest: 34041 Cluster Source: 1507 Cluster dest:2229
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+125Source: 33446 dest: 17141 Cluster Source: 20 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster20","cluster1377"]}
+Opening:-1
+Nothing to open
+
+
+
+125Source: 22736 dest: 8940 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+125Source: 3714 dest: 30850 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+126Source: 3981 dest: 9188 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+126Source: 5328 dest: 21210 Cluster Source: 1508 Cluster dest:696
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507","cluster696"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507","cluster696"]}
+
+
+
+127Source: 30093 dest: 12215 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+127Source: 24580 dest: 16008 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+127Source: 22727 dest: 25615 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+128Source: 2619 dest: 28420 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+128Source: 11061 dest: 15094 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+129Source: 3453 dest: 11064 Cluster Source: 1508 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507"]}
+
+
+
+130Source: 19900 dest: 35402 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+131Source: 19746 dest: 11866 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+131Source: 15342 dest: 32929 Cluster Source: 1508 Cluster dest:2128
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+132Source: 36594 dest: 10899 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+132Source: 9345 dest: 30579 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+133Source: 32003 dest: 14696 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+134Source: 32488 dest: 28417 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+135Source: 12794 dest: 25785 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+135Source: 16099 dest: 26462 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+135Source: 30746 dest: 26052 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+136Source: 18823 dest: 25968 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+136Source: 24540 dest: 36335 Cluster Source: 1377 Cluster dest:2453
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+136Source: 9110 dest: 19817 Cluster Source: 1377 Cluster dest:458
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507","cluster458"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507","cluster458"]}
+
+
+
+136Source: 9038 dest: 7739 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+136Source: 5180 dest: 18551 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+136Source: 6038 dest: 19445 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+137Source: 29920 dest: 17405 Cluster Source: 1804 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+137Source: 30712 dest: 16157 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+137Source: 16047 dest: 23449 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+137Source: 13966 dest: 11814 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+138Source: 5441 dest: 34959 Cluster Source: 1508 Cluster dest:2289
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 36248 dest: 28828 Cluster Source: 2438 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 30312 dest: 29771 Cluster Source: 1887 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 34291 dest: 999 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 2529 dest: 30048 Cluster Source: 1377 Cluster dest:1854
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 28969 dest: 20893 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 22121 dest: 10339 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+138Source: 34564 dest: 8112 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+139Source: 20272 dest: 12559 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+139Source: 26285 dest: 9125 Cluster Source: 1669 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+139Source: 35416 dest: 35377 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+139Source: 17316 dest: 15113 Cluster Source: 1377 Cluster dest:395
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster395"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster395"]}
+
+
+
+139Source: 30285 dest: 10253 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+140Source: 8591 dest: 3955 Cluster Source: 1377 Cluster dest:113
+{"name":"sp","level1":[],"level2":["cluster1377","cluster113"]}
+Opening:-1
+Nothing to open
+
+
+
+140Source: 10062 dest: 3655 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+140Source: 1756 dest: 1675 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+141Source: 32738 dest: 27710 Cluster Source: 2 Cluster dest:1725
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+141Source: 21960 dest: 9496 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+141Source: 26589 dest: 13802 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+142Source: 4934 dest: 16785 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+143Source: 5771 dest: 13271 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+143Source: 14478 dest: 8028 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+144Source: 2802 dest: 7605 Cluster Source: 29 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+144Source: 10987 dest: 10492 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+145Source: 18365 dest: 493 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+145Source: 21804 dest: 16665 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+145Source: 30725 dest: 30403 Cluster Source: 2 Cluster dest:1894
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+146Source: 26874 dest: 29906 Cluster Source: 1508 Cluster dest:1800
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+146Source: 397 dest: 30909 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+146Source: 31351 dest: 12379 Cluster Source: 2086 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+146Source: 20158 dest: 25055 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+147Source: 30208 dest: 25170 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+147Source: 20083 dest: 1589 Cluster Source: 1507 Cluster dest:1407
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1407"]}
+Opening:-1
+Nothing to open
+
+
+
+147Source: 11553 dest: 13829 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+147Source: 8931 dest: 23738 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+148Source: 36528 dest: 7764 Cluster Source: 2533 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+148Source: 13193 dest: 30453 Cluster Source: 1377 Cluster dest:1087
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1087"]}
+Opening:-1
+Nothing to open
+
+
+
+148Source: 9004 dest: 32698 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+148Source: 21982 dest: 30533 Cluster Source: 1508 Cluster dest:1101
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster1101"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster1101"]}
+
+
+
+148Source: 19060 dest: 17868 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+149Source: 15321 dest: 3612 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+149Source: 27137 dest: 10619 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+149Source: 28641 dest: 30565 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+149Source: 25176 dest: 13834 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+149Source: 1546 dest: 32589 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+149Source: 11834 dest: 8735 Cluster Source: 187 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster187","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+
+
+
+
+149Source: 7846 dest: 1812 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+149Source: 30504 dest: 7587 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+150Source: 18457 dest: 26468 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+150Source: 35805 dest: 6679 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+151Source: 5282 dest: 11400 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+151Source: 14651 dest: 8097 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+152Source: 21729 dest: 34554 Cluster Source: 1508 Cluster dest:2261
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+152Source: 22040 dest: 22685 Cluster Source: 731 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+152Source: 27775 dest: 23942 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+152Source: 13408 dest: 35022 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+153Source: 28370 dest: 1443 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+153Source: 11489 dest: 13210 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+153Source: 1691 dest: 13930 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+154Source: 33029 dest: 29265 Cluster Source: 2138 Cluster dest:1003
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+154Source: 6977 dest: 25343 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+154Source: 15015 dest: 9926 Cluster Source: 357 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+154Source: 8700 dest: 31125 Cluster Source: 1377 Cluster dest:1987
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+154Source: 16702 dest: 9600 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+155Source: 12151 dest: 1222 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+156Source: 5503 dest: 33307 Cluster Source: 2 Cluster dest:2164
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+156Source: 8395 dest: 28262 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+156Source: 30245 dest: 6449 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+157Source: 33833 dest: 16290 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+157Source: 12339 dest: 12411 Cluster Source: 1377 Cluster dest:212
+{"name":"sp","level1":[],"level2":["cluster1377","cluster212"]}
+Opening:-1
+Nothing to open
+
+
+
+157Source: 16091 dest: 30304 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+157Source: 19402 dest: 22471 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+158Source: 28618 dest: 20589 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+158Source: 10236 dest: 1951 Cluster Source: 157 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+158Source: 6780 dest: 411 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+158Source: 27944 dest: 25663 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+158Source: 12353 dest: 28106 Cluster Source: 1377 Cluster dest:752
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster752"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster752"]}
+
+
+
+158Source: 28606 dest: 12680 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+159Source: 3781 dest: 24427 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+159Source: 20756 dest: 11949 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+160Source: 29669 dest: 15195 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+161Source: 11422 dest: 24020 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+161Source: 13483 dest: 2252 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+161Source: 9614 dest: 35584 Cluster Source: 1377 Cluster dest:132
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster132"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster132"]}
+
+
+
+161Source: 11731 dest: 35832 Cluster Source: 2 Cluster dest:1338
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster1338"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2713","cluster6954","cluster1338"]}
+
+
+
+162Source: 11936 dest: 28873 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+162Source: 8870 dest: 8685 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+162Source: 12310 dest: 7463 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+163Source: 14689 dest: 11138 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+163Source: 2071 dest: 29540 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+163Source: 35608 dest: 6550 Cluster Source: 2373 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+163Source: 24540 dest: 5169 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+163Source: 1429 dest: 20311 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+163Source: 31417 dest: 10628 Cluster Source: 1125 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 7829 dest: 29905 Cluster Source: 1508 Cluster dest:1799
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 30071 dest: 21529 Cluster Source: 1864 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 20294 dest: 15355 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 21401 dest: 36334 Cluster Source: 2 Cluster dest:2453
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 7351 dest: 4055 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 14655 dest: 27513 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 15753 dest: 6681 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 24362 dest: 33886 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 19799 dest: 26592 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+164Source: 15846 dest: 7211 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+164Source: 6347 dest: 29194 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+165Source: 8466 dest: 6664 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+166Source: 29741 dest: 22310 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+166Source: 30834 dest: 30561 Cluster Source: 1113 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 35581 dest: 28557 Cluster Source: 132 Cluster dest:1748
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 22177 dest: 34189 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 582 dest: 31226 Cluster Source: 1377 Cluster dest:2028
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 30100 dest: 21894 Cluster Source: 1865 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 15098 dest: 24928 Cluster Source: 391 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 10689 dest: 28050 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+167Source: 15849 dest: 29724 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+167Source: 35041 dest: 36330 Cluster Source: 2296 Cluster dest:1370
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+168Source: 7693 dest: 30660 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+168Source: 741 dest: 35992 Cluster Source: 1377 Cluster dest:2410
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+169Source: 30338 dest: 2035 Cluster Source: 1079 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+169Source: 13950 dest: 3034 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+169Source: 12044 dest: 32566 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 35123 dest: 30274 Cluster Source: 2301 Cluster dest:1013
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 31033 dest: 8756 Cluster Source: 1122 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 4917 dest: 9089 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 10185 dest: 4136 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 4926 dest: 35481 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 17776 dest: 23021 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 28552 dest: 12007 Cluster Source: 1747 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+170Source: 15383 dest: 12336 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+171Source: 29570 dest: 33952 Cluster Source: 1780 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+171Source: 9061 dest: 19637 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+172Source: 9551 dest: 36555 Cluster Source: 1377 Cluster dest:2542
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+172Source: 9287 dest: 28059 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+172Source: 32771 dest: 15064 Cluster Source: 2 Cluster dest:304
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster2684","cluster304"]}
+
+
+
+173Source: 13246 dest: 13173 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+173Source: 35725 dest: 34629 Cluster Source: 2383 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+174Source: 8506 dest: 295 Cluster Source: 1508 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507"]}
+
+
+
+175Source: 26751 dest: 8629 Cluster Source: 825 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+175Source: 28268 dest: 19221 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+175Source: 12809 dest: 336 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+175Source: 18156 dest: 508 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+175Source: 14496 dest: 36571 Cluster Source: 1377 Cluster dest:1373
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1373"]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 4330 dest: 1287 Cluster Source: 1377 Cluster dest:17
+{"name":"sp","level1":[],"level2":["cluster1377","cluster17"]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 28082 dest: 32611 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 28642 dest: 4407 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 4683 dest: 18914 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 29788 dest: 1870 Cluster Source: 715 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+176Source: 11001 dest: 22785 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+176Source: 6785 dest: 2669 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+177Source: 12249 dest: 36583 Cluster Source: 1377 Cluster dest:2553
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+177Source: 874 dest: 3692 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+177Source: 161 dest: 1169 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+178Source: 29393 dest: 33448 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+178Source: 12249 dest: 197 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+178Source: 26310 dest: 9456 Cluster Source: 1679 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+178Source: 1983 dest: 2638 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+178Source: 14257 dest: 28889 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+178Source: 20095 dest: 12192 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+179Source: 6667 dest: 35034 Cluster Source: 1377 Cluster dest:2293
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+179Source: 29728 dest: 7590 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+180Source: 26966 dest: 11208 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 19846 dest: 35598 Cluster Source: 2 Cluster dest:2369
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 17597 dest: 33290 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 23785 dest: 22423 Cluster Source: 1572 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 29293 dest: 1400 Cluster Source: 1010 Cluster dest:1381
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 17140 dest: 10239 Cluster Source: 1377 Cluster dest:157
+{"name":"sp","level1":[],"level2":["cluster1377","cluster157"]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 6841 dest: 10131 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 18351 dest: 11215 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 27576 dest: 725 Cluster Source: 1698 Cluster dest:11
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 8523 dest: 31438 Cluster Source: 1508 Cluster dest:2095
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+180Source: 31515 dest: 9491 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+181Source: 9514 dest: 1397 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+181Source: 7262 dest: 25149 Cluster Source: 1377 Cluster dest:1589
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 24377 dest: 13873 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 29965 dest: 28168 Cluster Source: 1815 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 1289 dest: 25743 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 19937 dest: 15952 Cluster Source: 521 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 11139 dest: 26035 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+182Source: 4692 dest: 25757 Cluster Source: 1508 Cluster dest:805
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster805"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster805"]}
+
+
+
+182Source: 787 dest: 26370 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 19783 dest: 24022 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 8460 dest: 32860 Cluster Source: 1508 Cluster dest:2103
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 32514 dest: 24134 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 11116 dest: 28247 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 19387 dest: 33086 Cluster Source: 1377 Cluster dest:1171
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1171"]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 9266 dest: 34919 Cluster Source: 1508 Cluster dest:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304"]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 27591 dest: 26306 Cluster Source: 2 Cluster dest:1677
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+183Source: 9340 dest: 9100 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+184Source: 16217 dest: 32720 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+184Source: 22888 dest: 34308 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+184Source: 552 dest: 1278 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+184Source: 26931 dest: 5844 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+185Source: 19514 dest: 34846 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+185Source: 18019 dest: 7779 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+185Source: 34170 dest: 31061 Cluster Source: 1212 Cluster dest:1957
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+186Source: 21917 dest: 11859 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+186Source: 9027 dest: 22733 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+186Source: 22208 dest: 11143 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+187Source: 469 dest: 28606 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+187Source: 9617 dest: 18939 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+188Source: 30392 dest: 29265 Cluster Source: 2 Cluster dest:1003
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster1003"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster1003"]}
+
+
+
+189Source: 3106 dest: 1381 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+189Source: 3931 dest: 11686 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+189Source: 9436 dest: 22382 Cluster Source: 1377 Cluster dest:744
+{"name":"sp","level1":[],"level2":["cluster1377","cluster744"]}
+Opening:-1
+Nothing to open
+
+
+
+190Source: 22309 dest: 10172 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+191Source: 599 dest: 11647 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+192Source: 22234 dest: 13837 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+192Source: 14630 dest: 24143 Cluster Source: 1377 Cluster dest:761
+{"name":"sp","level1":[],"level2":["cluster1377","cluster761"]}
+Opening:-1
+Nothing to open
+
+
+
+192Source: 34629 dest: 35213 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+192Source: 3433 dest: 30915 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+192Source: 30349 dest: 14653 Cluster Source: 1890 Cluster dest:273
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 14933 dest: 34018 Cluster Source: 325 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 18277 dest: 8 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 18599 dest: 20678 Cluster Source: 431 Cluster dest:1507
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 36622 dest: 3539 Cluster Source: 440 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster440","cluster1377","cluster2"]}
+Opening:1377
+
+
+
+
+193Source: 20971 dest: 4676 Cluster Source: 1553 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 10784 dest: 30264 Cluster Source: 2 Cluster dest:1882
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+193Source: 31669 dest: 14917 Cluster Source: 2 Cluster dest:299
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster299"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster2684","cluster299"]}
+
+
+
+194Source: 9297 dest: 19276 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+194Source: 4603 dest: 21357 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+195Source: 14502 dest: 15969 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+195Source: 2791 dest: 34158 Cluster Source: 1377 Cluster dest:2246
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+196Source: 35917 dest: 20436 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+196Source: 12681 dest: 925 Cluster Source: 1508 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507"]}
+
+
+
+197Source: 36067 dest: 3985 Cluster Source: 1352 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+197Source: 27424 dest: 20029 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+197Source: 16175 dest: 7633 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+197Source: 12205 dest: 36283 Cluster Source: 1482 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+197Source: 2998 dest: 28892 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+198Source: 28203 dest: 31391 Cluster Source: 1377 Cluster dest:1123
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster1123"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster1123"]}
+
+
+
+198Source: 19033 dest: 14631 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+199Source: 788 dest: 11748 Cluster Source: 1377 Cluster dest:185
+{"name":"sp","level1":[],"level2":["cluster1377","cluster185"]}
+Opening:-1
+Nothing to open
+
+
+
+199Source: 24220 dest: 9336 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+199Source: 3646 dest: 10708 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+199Source: 23964 dest: 31458 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+200Source: 24214 dest: 34636 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+200Source: 26241 dest: 10532 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+201Source: 8217 dest: 6286 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+201Source: 3290 dest: 33880 Cluster Source: 2 Cluster dest:2218
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+201Source: 19357 dest: 2220 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+201Source: 8808 dest: 31918 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+201Source: 18194 dest: 26504 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+201Source: 28222 dest: 32403 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+202Source: 7940 dest: 35939 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+202Source: 21433 dest: 34840 Cluster Source: 1377 Cluster dest:877
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster877"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster877"]}
+
+
+
+202Source: 14103 dest: 22055 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+202Source: 20751 dest: 7924 Cluster Source: 1549 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 10245 dest: 20609 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 22068 dest: 24240 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 24784 dest: 34985 Cluster Source: 216 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster216","cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:1508
+
+
+
+
+203Source: 14363 dest: 33175 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 29175 dest: 35577 Cluster Source: 2 Cluster dest:2365
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 17888 dest: 23812 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+203Source: 24432 dest: 8359 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+203Source: 20056 dest: 29633 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+204Source: 28828 dest: 10842 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+204Source: 3163 dest: 25414 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+204Source: 22226 dest: 19485 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+205Source: 9563 dest: 5247 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+205Source: 24219 dest: 511 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+205Source: 25611 dest: 33704 Cluster Source: 1508 Cluster dest:948
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster948"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster948"]}
+
+
+
+205Source: 25647 dest: 29604 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+206Source: 19363 dest: 19969 Cluster Source: 1542 Cluster dest:541
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+206Source: 1513 dest: 14891 Cluster Source: 1377 Cluster dest:302
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster302"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster302"]}
+
+
+
+206Source: 2286 dest: 582 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+207Source: 20991 dest: 15103 Cluster Source: 1508 Cluster dest:337
+{"name":"sp","level1":[],"level2":["cluster1508","cluster337"]}
+Opening:-1
+Nothing to open
+
+
+
+207Source: 34996 dest: 27038 Cluster Source: 156 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+207Source: 26148 dest: 23404 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+207Source: 7975 dest: 22332 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+207Source: 12350 dest: 198 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+208Source: 23560 dest: 14357 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+208Source: 1630 dest: 233 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+208Source: 16073 dest: 6680 Cluster Source: 1507 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster634","cluster1377"]}
+
+
+
+209Source: 2311 dest: 19062 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 31132 dest: 11161 Cluster Source: 1991 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 16606 dest: 8129 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 16694 dest: 35508 Cluster Source: 1377 Cluster dest:2361
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 18461 dest: 11440 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 34765 dest: 12788 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+209Source: 33494 dest: 6494 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+210Source: 19241 dest: 10323 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+210Source: 3319 dest: 27050 Cluster Source: 1508 Cluster dest:865
+{"name":"sp","level1":[],"level2":["cluster1508","cluster865"]}
+Opening:-1
+Nothing to open
+
+
+
+211Source: 12478 dest: 7267 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+211Source: 15382 dest: 3139 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+212Source: 17080 dest: 29718 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+213Source: 25443 dest: 18573 Cluster Source: 1633 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+213Source: 1308 dest: 4838 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+213Source: 6459 dest: 16818 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+214Source: 2664 dest: 17168 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+214Source: 8105 dest: 2107 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+215Source: 23760 dest: 13736 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+216Source: 11724 dest: 12155 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+216Source: 3949 dest: 33761 Cluster Source: 1508 Cluster dest:2211
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+216Source: 11284 dest: 14323 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+216Source: 7799 dest: 25810 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+217Source: 23503 dest: 31170 Cluster Source: 2 Cluster dest:2003
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+217Source: 21101 dest: 10520 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+218Source: 887 dest: 32486 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+218Source: 5473 dest: 14131 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+219Source: 20142 dest: 34894 Cluster Source: 1507 Cluster dest:304
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508","cluster304"]}
+
+
+
+219Source: 6999 dest: 25311 Cluster Source: 2 Cluster dest:1591
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+220Source: 17758 dest: 2583 Cluster Source: 427 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+220Source: 30408 dest: 13692 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+220Source: 6225 dest: 16744 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+220Source: 19234 dest: 9450 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+220Source: 10358 dest: 13514 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+220Source: 5341 dest: 17809 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+220Source: 29202 dest: 13490 Cluster Source: 1000 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+221Source: 13244 dest: 12705 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+221Source: 23371 dest: 8787 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+222Source: 27902 dest: 6060 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+223Source: 27455 dest: 29377 Cluster Source: 1694 Cluster dest:1022
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+223Source: 8765 dest: 32291 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+223Source: 1982 dest: 18579 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 24554 dest: 33772 Cluster Source: 1377 Cluster dest:2216
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 4513 dest: 9541 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 28265 dest: 7587 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 17874 dest: 32036 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 28283 dest: 7141 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 24662 dest: 6889 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+224Source: 664 dest: 1489 Cluster Source: 1508 Cluster dest:1391
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507","cluster1391"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507","cluster1391"]}
+
+
+
+225Source: 10916 dest: 5693 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+225Source: 25597 dest: 24872 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+226Source: 2792 dest: 16262 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+226Source: 31800 dest: 13064 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+226Source: 20245 dest: 4958 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+227Source: 27787 dest: 11503 Cluster Source: 638 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 491 dest: 24839 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 32087 dest: 30176 Cluster Source: 2 Cluster dest:1877
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 21072 dest: 33318 Cluster Source: 1507 Cluster dest:2166
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 36470 dest: 2745 Cluster Source: 2505 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 23767 dest: 27147 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+227Source: 33116 dest: 14658 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+228Source: 7658 dest: 25580 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+228Source: 22731 dest: 26370 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+228Source: 32307 dest: 12517 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+229Source: 16095 dest: 18657 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+229Source: 32746 dest: 26769 Cluster Source: 2 Cluster dest:837
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster837"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster3072","cluster837"]}
+
+
+
+229Source: 10533 dest: 34394 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+230Source: 2626 dest: 12292 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+230Source: 15696 dest: 22390 Cluster Source: 2 Cluster dest:1564
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+231Source: 9263 dest: 32692 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+231Source: 31916 dest: 16011 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+232Source: 22988 dest: 15907 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+232Source: 11822 dest: 22042 Cluster Source: 2 Cluster dest:731
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster731"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster731"]}
+
+
+
+233Source: 21588 dest: 30161 Cluster Source: 1508 Cluster dest:1871
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 27327 dest: 28261 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 22043 dest: 33184 Cluster Source: 1377 Cluster dest:2143
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 5658 dest: 35706 Cluster Source: 1377 Cluster dest:1096
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1096"]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 27180 dest: 29722 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 8813 dest: 30891 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 1543 dest: 21036 Cluster Source: 1377 Cluster dest:638
+{"name":"sp","level1":[],"level2":["cluster1377","cluster638"]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 26725 dest: 25947 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 5674 dest: 27382 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 988 dest: 32278 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 22959 dest: 3712 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 21463 dest: 13092 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+233Source: 27314 dest: 18305 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+234Source: 32932 dest: 9415 Cluster Source: 2129 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+234Source: 21123 dest: 35561 Cluster Source: 644 Cluster dest:247
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+234Source: 8706 dest: 2850 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+234Source: 28558 dest: 15654 Cluster Source: 1748 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 11133 dest: 12799 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 25841 dest: 25907 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 27656 dest: 19362 Cluster Source: 916 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 36393 dest: 17962 Cluster Source: 2468 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 31493 dest: 3053 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+235Source: 1620 dest: 5441 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+235Source: 33959 dest: 25996 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+236Source: 7240 dest: 15893 Cluster Source: 1377 Cluster dest:414
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster414"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster414"]}
+
+
+
+236Source: 3215 dest: 6609 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+237Source: 18641 dest: 26670 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 9712 dest: 30224 Cluster Source: 152 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 17770 dest: 17018 Cluster Source: 428 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 35512 dest: 30980 Cluster Source: 1300 Cluster dest:1934
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 6086 dest: 30192 Cluster Source: 1377 Cluster dest:1066
+{"name":"sp","level1":[],"level2":["cluster1377","cluster1066"]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 15127 dest: 17642 Cluster Source: 401 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 33266 dest: 20155 Cluster Source: 751 Cluster dest:1507
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+237Source: 31915 dest: 16695 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+238Source: 32752 dest: 28355 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+239Source: 282 dest: 29783 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+239Source: 25146 dest: 33135 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+239Source: 2997 dest: 28095 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+239Source: 14796 dest: 24144 Cluster Source: 2 Cluster dest:761
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster761"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster761"]}
+
+
+
+240Source: 19572 dest: 29235 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+241Source: 1224 dest: 2949 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+241Source: 30772 dest: 5456 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+241Source: 21033 dest: 32423 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+242Source: 15689 dest: 3476 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+242Source: 2693 dest: 12526 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+242Source: 31640 dest: 20402 Cluster Source: 2 Cluster dest:578
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster578"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2791","cluster578"]}
+
+
+
+242Source: 12357 dest: 30824 Cluster Source: 1377 Cluster dest:1905
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 33800 dest: 25999 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 25356 dest: 1755 Cluster Source: 1599 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 9843 dest: 15013 Cluster Source: 1508 Cluster dest:310
+{"name":"sp","level1":[],"level2":["cluster1508","cluster310"]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 6861 dest: 25825 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 20512 dest: 29062 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 2851 dest: 6086 Cluster Source: 47 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 29178 dest: 1425 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 16309 dest: 28078 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 23773 dest: 35398 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+243Source: 23751 dest: 4469 Cluster Source: 2 Cluster dest:120
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377","cluster120"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377","cluster120"]}
+
+
+
+244Source: 21358 dest: 16496 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+244Source: 8445 dest: 16435 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+244Source: 18176 dest: 5910 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+244Source: 27913 dest: 18926 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+245Source: 15675 dest: 20749 Cluster Source: 1508 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster19","cluster1507"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster1507"]}
+
+
+
+246Source: 2017 dest: 2363 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+246Source: 20239 dest: 25492 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+246Source: 28799 dest: 1478 Cluster Source: 966 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+246Source: 18966 dest: 18723 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+246Source: 17385 dest: 18733 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+246Source: 15792 dest: 28345 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+247Source: 10386 dest: 15513 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+247Source: 34670 dest: 34321 Cluster Source: 1266 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+247Source: 11965 dest: 15176 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+247Source: 29654 dest: 19989 Cluster Source: 2 Cluster dest:553
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster553"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2708","cluster553"]}
+
+
+
+247Source: 12260 dest: 27374 Cluster Source: 1508 Cluster dest:895
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster895"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster895"]}
+
+
+
+247Source: 22055 dest: 26538 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+248Source: 30656 dest: 12493 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+248Source: 24941 dest: 4890 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+249Source: 26807 dest: 35631 Cluster Source: 2 Cluster dest:1325
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster1325"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster2633","cluster4200","cluster1325"]}
+
+
+
+250Source: 15376 dest: 14449 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+250Source: 16643 dest: 29243 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+251Source: 30830 dest: 20017 Cluster Source: 1111 Cluster dest:570
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+251Source: 31126 dest: 12596 Cluster Source: 1988 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+251Source: 5193 dest: 17530 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+252Source: 24593 dest: 18215 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+252Source: 1908 dest: 24097 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+252Source: 20745 dest: 17106 Cluster Source: 1507 Cluster dest:1507
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+252Source: 14161 dest: 24599 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+252Source: 1599 dest: 27093 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+252Source: 30070 dest: 3875 Cluster Source: 1864 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 29990 dest: 27005 Cluster Source: 1826 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 35960 dest: 11906 Cluster Source: 2403 Cluster dest:197
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 22272 dest: 33572 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 34891 dest: 27944 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 33442 dest: 18992 Cluster Source: 21 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+253Source: 25885 dest: 12359 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+254Source: 26611 dest: 3894 Cluster Source: 814 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+254Source: 11608 dest: 26538 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+254Source: 11541 dest: 4705 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 4674 dest: 30564 Cluster Source: 122 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 2948 dest: 23429 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 843 dest: 13929 Cluster Source: 12 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 36585 dest: 27604 Cluster Source: 608 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 33242 dest: 26708 Cluster Source: 2154 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 26162 dest: 31673 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+255Source: 4021 dest: 103 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+255Source: 25981 dest: 27302 Cluster Source: 1658 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+256Source: 20015 dest: 18757 Cluster Source: 569 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+256Source: 4991 dest: 883 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+257Source: 32759 dest: 28511 Cluster Source: 2 Cluster dest:1743
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+257Source: 1209 dest: 1632 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+257Source: 28805 dest: 15201 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+257Source: 18128 dest: 26049 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+258Source: 1923 dest: 20896 Cluster Source: 1377 Cluster dest:626
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507","cluster626"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507","cluster626"]}
+
+
+
+258Source: 10531 dest: 10653 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+258Source: 18876 dest: 23980 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+259Source: 15251 dest: 19368 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+259Source: 28933 dest: 12911 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+260Source: 9643 dest: 15549 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+260Source: 13605 dest: 20073 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+260Source: 29717 dest: 18224 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+261Source: 8285 dest: 2860 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+261Source: 35722 dest: 25406 Cluster Source: 2383 Cluster dest:1619
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+261Source: 9286 dest: 28172 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+261Source: 29921 dest: 10217 Cluster Source: 1804 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+262Source: 34934 dest: 26969 Cluster Source: 233 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster233","cluster1377","cluster2"]}
+Opening:1377
+{"name":"sp","level1":[],"level2":["cluster233","cluster1508","cluster1507","cluster1501","cluster2"]}
+
+
+
+263Source: 24356 dest: 7832 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+263Source: 7488 dest: 20334 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+264Source: 27276 dest: 12843 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+264Source: 29055 dest: 32977 Cluster Source: 2 Cluster dest:2135
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+264Source: 19784 dest: 4802 Cluster Source: 1377 Cluster dest:121
+{"name":"sp","level1":[],"level2":["cluster1377","cluster121"]}
+Opening:-1
+Nothing to open
+
+
+
+264Source: 22215 dest: 18757 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+265Source: 27509 dest: 35301 Cluster Source: 2 Cluster dest:2342
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+265Source: 16723 dest: 4488 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+265Source: 2419 dest: 3608 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+265Source: 31151 dest: 15001 Cluster Source: 2000 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+266Source: 5155 dest: 11964 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+266Source: 35398 dest: 1693 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+267Source: 3427 dest: 36486 Cluster Source: 1508 Cluster dest:2513
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+267Source: 23069 dest: 25444 Cluster Source: 2 Cluster dest:1634
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+267Source: 23859 dest: 31692 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+267Source: 36633 dest: 10541 Cluster Source: 2556 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+267Source: 34375 dest: 35369 Cluster Source: 2253 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+267Source: 21061 dest: 6849 Cluster Source: 1507 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508"]}
+Opening:94
+{"name":"sp","level1":[],"level2":["cluster1507","cluster291","cluster1508"]}
+
+
+
+267Source: 18575 dest: 6574 Cluster Source: 1377 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster1377","cluster19","cluster1507"]}
+Opening:19
+{"name":"sp","level1":[],"level2":["cluster1377","cluster3","cluster1507"]}
+
+
+
+267Source: 31673 dest: 154 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+268Source: 28317 dest: 26473 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+268Source: 22038 dest: 2341 Cluster Source: 731 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+268Source: 5351 dest: 23753 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+268Source: 19507 dest: 21747 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+268Source: 7813 dest: 19731 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+268Source: 30852 dest: 18032 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+269Source: 15164 dest: 30948 Cluster Source: 2 Cluster dest:1921
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+269Source: 15205 dest: 26483 Cluster Source: 408 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+269Source: 36293 dest: 35576 Cluster Source: 2445 Cluster dest:2365
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+269Source: 31905 dest: 19327 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+270Source: 4691 dest: 14700 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+270Source: 5473 dest: 30700 Cluster Source: 2 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+270Source: 26967 dest: 18155 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+271Source: 29692 dest: 9230 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+271Source: 32224 dest: 9073 Cluster Source: 2 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster304","cluster1377"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1377"]}
+
+
+
+272Source: 10860 dest: 78 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+272Source: 25579 dest: 5765 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+272Source: 36493 dest: 10739 Cluster Source: 2517 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+273Source: 26103 dest: 20919 Cluster Source: 2 Cluster dest:565
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster565"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2708","cluster565"]}
+
+
+
+273Source: 35399 dest: 5412 Cluster Source: 2346 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+274Source: 15120 dest: 33893 Cluster Source: 2 Cluster dest:2220
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+274Source: 30094 dest: 30867 Cluster Source: 2 Cluster dest:1908
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+274Source: 29587 dest: 789 Cluster Source: 1783 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+274Source: 7657 dest: 10670 Cluster Source: 1508 Cluster dest:1508
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+274Source: 17817 dest: 26421 Cluster Source: 1507 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1507","cluster1501","cluster2"]}
+Opening:1501
+{"name":"sp","level1":[],"level2":["cluster1507","cluster94","cluster1508","cluster304","cluster1377","cluster2"]}
+
+
+
+275Source: 8235 dest: 15449 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+275Source: 10119 dest: 5776 Cluster Source: 1377 Cluster dest:132
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508","cluster132"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508","cluster132"]}
+
+
+
+275Source: 23862 dest: 16069 Cluster Source: 2 Cluster dest:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507"]}
+Opening:-1
+Nothing to open
+
+
+
+276Source: 13673 dest: 9150 Cluster Source: 261 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+276Source: 23402 dest: 26073 Cluster Source: 2 Cluster dest:808
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster808"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster2819","cluster808"]}
+
+
+
+276Source: 13354 dest: 21551 Cluster Source: 1517 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+277Source: 5179 dest: 27699 Cluster Source: 1508 Cluster dest:1720
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+277Source: 26506 dest: 6986 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+277Source: 7405 dest: 2771 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+278Source: 15403 dest: 30753 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+278Source: 15019 dest: 6798 Cluster Source: 359 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+279Source: 24020 dest: 18624 Cluster Source: 2 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508"]}
+Opening:-1
+Nothing to open
+
+
+
+279Source: 91 dest: 32068 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+279Source: 3885 dest: 14945 Cluster Source: 2 Cluster dest:331
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster331"]}
+Opening:1508
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster2684","cluster331"]}
+
+
+
+280Source: 24689 dest: 5777 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+280Source: 27395 dest: 2120 Cluster Source: 894 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+281Source: 3221 dest: 1075 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}
+
+
+
+281Source: 13215 dest: 17771 Cluster Source: 1377 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+282Source: 26817 dest: 9790 Cluster Source: 2 Cluster dest:1449
+{"name":"sp","level1":[],"level2":["cluster2","cluster1507","cluster1449"]}
+Opening:1507
+{"name":"sp","level1":[],"level2":["cluster2","cluster1508","cluster2587","cluster1449"]}
+
+
+
+283Source: 3757 dest: 29106 Cluster Source: 1508 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377","cluster2"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377","cluster2"]}
+
+
+
+283Source: 24398 dest: 36361 Cluster Source: 1377 Cluster dest:2456
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 34962 dest: 32270 Cluster Source: 2290 Cluster dest:2
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 33437 dest: 21175 Cluster Source: 2184 Cluster dest:670
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 5292 dest: 30948 Cluster Source: 2 Cluster dest:1921
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 30088 dest: 34138 Cluster Source: 2 Cluster dest:2241
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 31431 dest: 17883 Cluster Source: 2093 Cluster dest:1377
+{"name":"sp","level1":[],"level2":[]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 10117 dest: 16282 Cluster Source: 1377 Cluster dest:2
+{"name":"sp","level1":[],"level2":["cluster1377","cluster2"]}
+Opening:-1
+Nothing to open
+
+
+
+284Source: 25643 dest: 13062 Cluster Source: 1377 Cluster dest:1508
+{"name":"sp","level1":[],"level2":["cluster1377","cluster450","cluster1508"]}
+Opening:450
+{"name":"sp","level1":[],"level2":["cluster1377","cluster738","cluster1508"]}
+
+
+
+284Source: 5667 dest: 17808 Cluster Source: 1508 Cluster dest:1377
+{"name":"sp","level1":[],"level2":["cluster1508","cluster304","cluster1377"]}
+Opening:304
+{"name":"sp","level1":[],"level2":["cluster1508","cluster426","cluster1377"]}

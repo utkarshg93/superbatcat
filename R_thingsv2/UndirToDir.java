@@ -34,6 +34,7 @@ public class UndirToDir {
              int edgectr=0;
             n = scan.nextInt();
             m = scan.nextInt();
+	System.out.println(n+ " " +m);
             ArrayList <ArrayList <Integer>> edges= new ArrayList<>(n);
             for(int i=0; i<n; i++)
             {
@@ -65,7 +66,7 @@ public class UndirToDir {
             
             PrintWriter outFile = new PrintWriter("enron_undir_edgelist");
             int ctr=0;
-            //outFile.println(n+"\t" + edgectr);
+            outFile.println(n+ "\t" + edgectr);
             for(int i=0; i<n; i++)
             {
                  if (edges.get(i).size()!=0)
@@ -76,7 +77,7 @@ public class UndirToDir {
                         ctr++;
                     }
             }
-            System.out.println(ctr + " edges found");
+            System.out.println(ctr + " edges found "+edgectr);
             outFile.close();
             
         

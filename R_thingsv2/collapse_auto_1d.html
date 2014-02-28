@@ -201,7 +201,7 @@ d3.json("ClusteredGraph1d.json", function(json) {
   flatten(root);
  clustlinks = eval(json.clustlinks);
  
-
+/*
  var removelinks = [];
 
  for(var i=0;i<clustlinks.length;i++){
@@ -215,7 +215,7 @@ if(removelinks.length==clustlinks.length)
 else	
  for(var i=0;i<removelinks.length;i++)
 		clustlinks.splice(removelinks[i],1);
-			      
+*/			      
 
 
  for(var i=0;i<root.children.length;i++)
@@ -348,15 +348,16 @@ function color(d) {
   if(SPswitch==1 && ShortPathl2.indexOf(d.id)!=-1 && nodes.indexOf(d.children[0])==-1)
 		return "Red";
   if(d.parent=="flare") code="#3fada8";
+  if(d.name=="cluster2" ) return "red";
   else{ code=colorcategory(d.parent.slice(7));
-
+  
 }
   function CC(){return code;}
   var teal = d3.rgb(CC());
   if(d.color) return d.color;
   else
   return d.children ? teal : d.children ? teal.darker(2) : teal.darker(2);
-}
+}  
 
 
 // Toggle children on click.
@@ -435,7 +436,7 @@ function flatten(node) {
 	
     if(parent.name=="flare"){
 	
-	if(child.children.length<2)
+	if(child.children.length<0)
 		 return;
   
 			    }		

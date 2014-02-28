@@ -115,7 +115,7 @@ public class JSONConvV2 {
         {
           //  System.out.println(cluster.get(i).size());
 		//System.exit(0);
-            if(cluster.get(i).size() > 50)
+            if(cluster.get(i).size() > 0)
             {
                 int ctr=0;
                 int temp1, temp2;

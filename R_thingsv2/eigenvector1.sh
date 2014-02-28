@@ -12,9 +12,14 @@ sudo ./eigenvector.r $1 $nodes >/dev/null
 sudo chmod 777 $1try
 sed 's/ /\n/g' $1try > $1_cluster
 sudo chmod 777 $1_cluster
-javac ConnectedChecker.java
-java ConnectedChecker
+#javac ConnectedChecker.java
+#java ConnectedChecker
+javac JSONConvV2.java 
+java JSONConvV2 $1_cluster $1
+
+sudo cp "prateek" $1_connected
 sudo chmod 777 $1_connected
+echo "here"
 javac JSONConv.java
 java JSONConv
 sudo chmod 777 "enron_eigen_1.json"

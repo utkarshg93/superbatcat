@@ -237,7 +237,7 @@ public class FinalShortestPath {
      int topen=Integer.parseInt(args[3]);
 	System.out.println(source);
 	System.out.println(dest);
-System.out.println(flag);
+	System.out.println(flag);
 	System.out.println(topen);     
 	l3();
      if(flag==1){

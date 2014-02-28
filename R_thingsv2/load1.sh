@@ -7,7 +7,7 @@ if [[ $1 == "neo4j" ]]
 then
 sudo bash load3.sh
 else 
-cp "stuff/Datasets/"$1 "enron_undir_edgelist"
+cp "stuff/Datasets/"$1 "enron_undir"
 fi
 cp "stuff/R_scripts/"$2 "eigenvector.r"
 javac UndirToDir.java
