@@ -8,8 +8,9 @@ n=as.numeric(args[2])
 #print("In R")
 #print(args[1])
 #print("boo")
-#print(args[2])
+
 G=read.graph(args[1], format="edgelist", directed=FALSE)
 a=no.clusters(G)
 print(a)
+print(args[2])
 

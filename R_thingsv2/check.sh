@@ -8,6 +8,5 @@ echo $name
 ./numberconnected.r `cat labeling_enron_subgraphs/largesubgraphs/list | head -$i | tail -1 | awk -F" " '{print $1,$2}' ` 
 
 done
-#cat $a
 
 

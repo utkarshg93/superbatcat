@@ -62,8 +62,8 @@ public class JSONConvV2 {
                 for(int j=0; j<max; j++)
                     wt[i][j]=0;
             int n, m, j, k;
-            n = nodes;
-            m = 0;
+            n = scan1.nextInt();// was nodes
+            m = scan1.nextInt(); // was 0
 		
             while(scan1.hasNext())
             {
