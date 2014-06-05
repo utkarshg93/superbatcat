@@ -61,8 +61,8 @@ public class JSONConv {
                 for(int j=0; j<max; j++)
                     wt[i][j]=0;
             int n, m, j, k;
-           // n = scan1.nextInt();
-           // m = scan1.nextInt();
+//            n = scan1.nextInt();
+  //          m = scan1.nextInt();
            // for(int i=0; i<m; i++)
             while(scan1.hasNext())
             {
@@ -99,7 +99,7 @@ System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
             // TODO code application logic hereFile inputFile = new File(input);
 
             String input, output="enron_eigen_1.json";
-            map( "prateek","enron_undir_edgelist");
+            map( "enron_clustIds","clusterEdgeListl1");
            PrintWriter outFile = null;
 		System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
            outFile = new PrintWriter(output);
@@ -132,6 +132,7 @@ System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
  {
   for(int j=0;j<=max;j++)
   {
+	System.out.println("boo");
    if (wt[i][j]>0  && i!=j)
    {
     if (temp==1)
@@ -139,6 +140,7 @@ System.out.println("jlbhsavujbgrsiukgrwgbwghfb");
     
     if(i> max || j> max)
            System.err.println("oops");
+
      outFile.printf( "{\"source\":%d, \"target\":%d, \"value\":%d}", i, j, wt[i][j]); 
      temp=1;
    }

@@ -12,5 +12,5 @@ G=read.graph(args[1], format="edgelist", n=as.numeric(args[2]), directed=FALSE)
 
 a=clusters(G)
 print("done")
-lapply(a[1], write, paste(args[1],"try",sep = ""), append=FALSE, ncolumns=13)
+lapply(a[1], write, paste(args[1],"try",sep = ""), append=FALSE, ncolumns=1)
 

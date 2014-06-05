@@ -1,8 +1,1 @@
 withoutremoval
-kron13connectedwith 
-kron13connectedwithout
-kron14_1connectedwith 
-kron14_1connectedwithout
-kron14connectedwith       
-withremoval
-kron14connectedwithout

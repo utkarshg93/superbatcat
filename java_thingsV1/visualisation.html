@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <title>Force-Directed Graph</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>   
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+    <style type="text/css">
+
+circle.node {
+  cursor: pointer;
+  stroke: black;
+            }
+            
+.node text {
+  pointer-events: none;
+  font: 10px sans-serif;
+	   }
+
+line.link {
+  fill: black;
+  stroke: black;
+  stroke-width: 1.5px;
+          }
+
+    </style>
+  </head>
+  <body>
+<table  width="1000" height="500">
+		<tr>
+					
+			<td align=center width=650 height=200>
+				<div id="chart">
+					  <div id='loading' style="margin-top:25%;display:none;">
+						  <img src='ajax-loader.gif'/>
+					  </div>
+
+				</div>
+			</td>
+			
+			<td align="justify" valign="top" style="font-family: Segoe UI Light; font-size: 80%; background-color: #111111; color:#FFFFFF;">
+			 <table  width="330">
+				<tr>
+					<td>
+					
+ 					<select id="Algorithm">
+					  <option>Select...</option>
+					  <option value="EdgeBetween.r">Edge Betweeness</option>
+					  <option value="EigenVector.r">EigenVector</option>
+					  <option value="LabelingWalktrap.r">Labeling WalkTrap</option>
+					  <option value="FastGreedy.r">Fastgreedy</option>
+					  <option value="LabelProp.r">Label Propogation</option>
+					</select>
+					</td><td>
+					<select id="Dataset">
+					  <option>Select...</option>
+					  <option value="DrWho.txt">Dr.Who</option>
+					  <option value="EmailEnron.txt">Enron Email</option>
+					  <option value="SlashDot.txt">Slashdot</option>
+					  <option value="Dblp.txt">Dblp sliced</option>
+					  <option value="WikiVote.txt">Wiki Vote</option>
+					</select>
+					<input type="submit" value="Submit" onclick="SendData()" />
+					
+					</td>
+				</tr>
+				
+					<tr> 
+					<td>Source Vertex:</td><td> <input type='int' id="sourceVertex"></td></tr>
+					<tr><td>Terminal Vertex:</td><td> <input type='int' id="targetVertex"></td></tr>
+					<tr>
+					<td><button type="button" id="ShortestPath" onclick="SP()">Find Shortest Path</button></td>
+					</tr>
+				
+
+				
+				
+			</tr>
+			</table>
+           
+			
+		
+		</tr>
+	
+	</table>
+  
+
+<script type="text/javascript">
+var w = window.innerWidth,
+    h = window.innerHeight,
+    node,
+    link,
+    root,
+    nodes = [],
+    clustlinks = [],
+    nodelinks = [],
+    colorcategory=d3.scale.linear()
+    .domain([6, 3, 1])
+    .range(["red", "yellow", "green"]),
+    groups,
+    groupEnds = [],
+    groupPath,
+    groupFill,
+    Groups,
+    jsonObj = [];
+
+function SendData(){
+/*var algo=document.getElementById("Algorithm").value;
+var dataset=document.getElementById("Dataset").value;
+//PHP call
+$('#loading').show();
+  $.ajax({
+		
+                type: "POST",
+                url: "try.php?data="+dataset+"&algo="+algo, 
+                success: function(response){
+			$('#loading').hide();
+			loadVisual();
+			                   }
+	  	   
+            });
+*/
+loadVisual();
+}
+
+//SPswitch is shortest path switch, 1 means on, 0 means off.
+var ShortPathl1 = [], ShortPathl2 = [],ShortPathLinksl1=[],ShortPathLinksl2=[],SPswitch=0;
+function SP(){
+	var SPsource=document.getElementById("sourceVertex").value;
+	var SPtarget=document.getElementById("targetVertex").value;
+	
+	//Obtain shortest path using rexster here//
+	
+	d3.json("ShortestPath.json", function(otherjson) {
+		ShortPathl1=eval(otherjson.level1);
+		ShortPathl2=eval(otherjson.level2);
+		SPswitch=1;
+		update();
+					    	         });
+	     }
+
+var force = d3.layout.force()
+    .on("tick", tick)
+    .size([w, h]);
+
+var vis = d3.select("#chart")
+  .append("svg:svg")
+    .attr("width", w)
+    .attr("height", h)
+    .attr("pointer-events", "all")
+  .append('svg:g')
+    .call(d3.behavior.zoom().on("zoom", redraw))
+  .append('svg:g');
+
+vis.append('svg:rect')
+    .attr('width', w)
+    .attr('height', h)
+    .attr('fill', 'white');
+
+
+
+function redraw() {
+  vis.attr("transform",
+      "translate(" + d3.event.translate + ")"
+      + " scale(" + d3.event.scale + ")");
+}  
+function getIndexInNodes(d){
+for(var i=0; i<nodes.length; i++)
+	if(nodes[i].name==d)
+		return i;
+}
+
+function getIndexInClustlinks(s,t){
+for(var i=0; i<clustlinks.length; i++){
+	
+	if(clustlinks[i].source.name==s && clustlinks[i].target.name==t){
+		console.log(clustlinks[i].source.name  + ": " + s);
+		return i;
+		}
+	}
+}
+function loadVisual(){
+d3.json("clustering.JSON", function(json) {
+	root = json;
+	flatten(root);
+	var nameLinks = eval(json.clustlinks);
+	for(var i=0; i<nameLinks.length; i++)
+		clustlinks.push(eval({"source":getIndexInNodes(nameLinks[i].source),"target":getIndexInNodes(nameLinks[i].target),"value":nameLinks[i].value})); 
+	var hierarchy = eval(json.sizes);
+	for(var j=2;j<10;j++){
+		hierarchy[j]+=hierarchy[j-1];
+			}
+	var i=0;
+	for(var j=1;j<10;j++){
+		nodelinks[j]=new Array();
+		for(;i<hierarchy[j];i++){
+			if(json["cluster"+i+"d"+j]){
+				//console.log("adding "+i+" " +j +" "+ eval(json["cluster"+i+"d"+j]));
+				nodelinks[j][i]=eval(json["cluster"+i+"d"+j]);
+							  }
+						}
+		            }
+
+ 	
+
+vis.style("opacity", 1e-6)
+  .transition()
+    .duration(1000)
+    .style("opacity", 1);
+	try{
+update(); 
+}catch(e){alert(e);}
+						  });
+
+}
+function update() {
+	
+  // Restart the force layout.
+  force
+      .nodes(nodes)
+      .links(clustlinks)
+      .linkDistance(function(d){ if(d.source.children){return Math.log((d.source.children.length+d.target.children.length)/1.8);} else return 10;})
+      //.charge(function(d){if(d.children) return -1*Math.log(d.children.length); else return -100;})
+      .charge(function(d){ if(d.children) {console.log(-600*(d.children.length%300)); return -600*(d.children.length%300);} else{ console.log(-400); return -400;}})
+     // .linkStrength(function(d){if(d.source.children) return Math.log((d.source.children.length+d.target.children.length)/1.8); else return 1;})
+      .friction(0.75)
+      .gravity(0.45)
+      .start();
+  vis.selectAll("path").remove();
+  groups = d3.nest().key(function(d) { return d.parent.name; }).entries(nodes);
+  groupPath = function(d) { return "M" + d3.geom.hull(d.values.map(function(i) { return [i.x, i.y]; })).join("L") + "Z"; };
+  groupFill = function(d, i) { return color(d.values[0]); };
+
+  // Update the links.
+  link = vis.selectAll("line.link")
+      .data(clustlinks, function(d) { return d.source.id + "-" + d.target.id; });
+
+  // Enter any new links.
+  link.enter().append("svg:line","g.node")
+      .attr("class", "link")
+      .attr("x1", function(d) { return d.source.x; })
+      .attr("y1", function(d) { return d.source.y; })
+      .attr("x2", function(d) { return d.target.x; })
+      .attr("y2", function(d) { return d.target.y; })
+      .attr("source",function(d){  return d.source.name;})
+      .attr("target",function(d){  return d.target.name;})
+      .append("title")
+      .text(function(d) { return d.source.name +" - "+ d.target.name; });
+ 
+  // Exit any old links.
+  link.exit().remove();
+  link.style("stroke",function(d){
+        if(SPswitch==1 && (ShortPathl1.indexOf(parseInt(d.source.name))!=-1 && ShortPathl1.indexOf(parseInt(d.target.name))!=-1 && Math.abs(ShortPathl1.indexOf(parseInt(d.target.name))-ShortPathl1.indexOf(parseInt(d.source.name)))==1) || ShortPathl2.indexOf(d.source.name)!=-1 && ShortPathl2.indexOf(d.target.name)!=-1 && Math.abs(ShortPathl2.indexOf(d.target.name)-ShortPathl2.indexOf(d.source.name))==1){ return "red";}
+	if(d.source.name=="flare" || d.target.name=="flare")
+		return "none";
+	if(Math.abs(parseInt(d.source.name.split("d")[1])-parseInt(d.target.name.split("d")[1]))==1) 					   			return "none";
+										   					
+	else 	return"black";
+				 })
+      .style("stroke-width", function(d){ return (d.value)*2; })
+  // Update the nodes…
+  node = vis.selectAll("circle.node")
+      .data(nodes, function(d) { return d.id; })
+      .style("fill", color);
+
+  // Enter any new nodes.
+  node.enter().append("svg:circle")
+      .attr("class", "node")
+      .attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; })
+      .attr("r", function(d) { /*if(nodes.indexOf(d.children[0])!=-1) return d.children.length*5; else*/ return 10; })
+      .attr("name", function(d){ return d.name; })
+      .style("fill", color)
+      .append("title").text(function(d) { return d.name; });
+       
+  node.on("click", click)
+      //.attr("r", function(d) { if(nodes.indexOf(d.children[0])!=-1) return (d.children.length*3)/360; else return 10; })
+      .call(force.drag);
+      
+  // Exit any old nodes.
+  node.exit().remove();
+ 
+	console.log(Groups);
+
+		}
+
+
+function tick(e)
+{
+   
+	link.attr("x1", function(d) { return d.source.x; })
+	    .attr("y1", function(d) { return d.source.y; })
+	    .attr("x2", function(d) { return d.target.x; })
+	    .attr("y2", function(d) { return d.target.y; });
+	
+	node.attr("cx", function(d) { return d.x; })
+	    .attr("cy", function(d) { return d.y; });
+
+	Groups = vis.selectAll("path")
+     		    .data(groups)
+	            .attr("d", groupPath)
+	            .enter().insert("path", "circle")
+		    .style("fill", groupFill)
+		    .style("stroke", groupFill)
+		    .style("stroke-width", 40)
+		    .style("stroke-linejoin", "round")
+		    .style("opacity", .2)
+		    .attr("d", groupPath)
+		    .attr("name", function(d){ return d.key;})
+		    .attr("id", function(d){ return d.key;})
+		    .attr("x", function(d) {  return d.x; })
+		    .attr("y", function(d) { return d.y; })
+		    .append("title").text(function(d) { return d.key; });
+	//console.log(groupPath);
+}
+
+// Color leaf nodes orange, and packages white or blue.
+function color(d)
+{ 	
+  	var code;	
+	if(SPswitch==1 && ShortPathl1.indexOf(parseInt(d.id))!=-1)
+		return "Red";
+							  
+	if(SPswitch==1 && ShortPathl2.indexOf(d.id)!=-1)
+		return "Red";
+			
+	if(d.children && d.parent.name!="flare")
+		code=colorcategory(parseInt(d.parent.name.split("d")[0].slice(7))); 
+			
+	else code="#3fada8";
+	
+	//Returns Color code.
+	function CC(){ return code;}
+	var teal = d3.rgb(CC());
+	if(d.color) return d.color;
+	else if(d.children) return teal.brighter(Math.log(d.children.length)) ;
+	else return teal;
+}
+
+
+// Toggle children on click.
+function click(d)
+{
+	function check(child)
+	{ 
+	        if(nodes.indexOf(child)==-1) return true;
+	        else return false;
+        }
+
+	function recurse(d)
+	{
+		if(nodes.indexOf(d.children[0])>=0)
+		{
+			if(d.children[0].name[0]=='c')
+			{
+				d.children.forEach(recurse);
+				deflatten(d);
+			}
+			else
+			{
+				deflatten(d); 
+				return;
+			}
+		}
+		
+	}
+			   
+
+	if(check(d.children[0]))
+	{
+    		d.color=color(d);
+		try{flatten(d);} catch(e) {alert("flattening " + e);}
+     	} 
+  	else
+	{ 
+		d.color=color(d);
+		recurse(d);
+		//try{deflatten(d);} catch(e) {alert("deflattening "+ e);}
+	}
+  	update();
+}
+
+//Deflatten a node.
+function deflatten(node)
+{
+	var i = 0,parent = node, maxChild = node.children[0] ;
+	var depth = parseInt(parent.name.split("d")[1]);
+	var clustnum = parseInt(parent.name.split("d")[0].slice(7));
+	var s = [];
+	var t = [];
+
+	function recurse(child)
+	{
+        	if(nodes.indexOf(child)!=-1)
+		{
+        		/*if(parent.name!="flare" && typeof(nodelinks[depth][clustnum])!="undefined")
+			{  
+				if(child.children.length>maxChild.children.length) maxChild=child;
+				for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+				{
+	 				if(nodelinks[depth][clustnum][i].source==child.name)
+                				s[i]=child;
+					if(nodelinks[depth][clustnum][i].target==child.name)
+                          			t[i]=child;
+				}
+		   
+			}*/
+			nodes.splice(nodes.indexOf(child),1);
+        	}
+	}
+
+	if (node.children) node.children.forEach(recurse);
+	//clustlinks.splice(clustlinks.indexOf(eval({"source":parent,"target":maxChild,"value":0.1})),1);
+	
+	if(parent.name!="flare" && typeof(nodelinks[depth][clustnum])!="undefined")
+	{
+		if(nodelinks[depth][clustnum].length>0)
+		{
+			for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+			{
+				
+				//clustlinks.splice(clustlinks.indexOf(eval({"source":s[i],"target":t[i],"value":1})),1);
+				var source = nodelinks[depth][clustnum][i].source;
+				var target = nodelinks[depth][clustnum][i].target;
+				clustlinks.splice(getIndexInClustlinks(source,target),1);
+			}
+		}
+
+	}
+	
+}
+
+
+// Returns a list of all nodes under the current node.
+function flatten(node)
+{
+	var parent=node,clustnum,depth;
+	if(node.name!="flare")
+	{
+		depth = parseInt(parent.name.split("d")[1]);
+		clustnum = parseInt(parent.name.split("d")[0].slice(7));
+	}
+	var s = [];
+	var t = [];
+	function recurse(child)
+	{
+		if(!child.id) child.id = child.name;
+		if(!child.parent) child.parent = parent;
+		if(nodes.indexOf(child) == -1)
+		{
+			nodes.push(child);
+			//clustlinks.push(eval({"source":parent,"target":child,"value":1})); 
+			if(parent.name != "flare" && typeof(nodelinks[depth][clustnum]) != "undefined")
+			{
+				for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+				{
+					if(nodelinks[depth][clustnum][i].source==child.name)
+		                	          s[i]=child;
+												    
+					if(nodelinks[depth][clustnum][i].target==child.name)
+                			          t[i]=child;
+				}	
+               		}	
+			
+		}
+      	}
+
+	if (node.children) node.children.forEach(recurse);
+	if(parent.name!="flare" && typeof(nodelinks[depth][clustnum])!="undefined")
+	{ 
+		if(nodelinks[depth][clustnum].length>0)
+		{
+			for(var i=0;i<nodelinks[depth][clustnum].length;i++)
+			{
+				clustlinks.push(eval({"source":s[i],"target":t[i],"value":1})); 
+				//var source = nodelinks[depth][clustnum][i].source;
+				//var target = nodelinks[depth][clustnum][i].target;
+				//clustlinks.push(eval({"source":getIndexInNodes(source),"target":getIndexInNodes(target),"value":1})); 
+			}
+		}
+	}
+}
+
+    </script>
+  </body>
+</html>

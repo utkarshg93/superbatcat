@@ -150,7 +150,8 @@ public class JSONConvV2 {
 				count++;
 			}
 		
-		out2.println("labeling_enron_subgraphs/largesubgraphs/cluster"+i+"/subgraph"+i+" "+cluster.get(i).size()+" "+"labeling_enron_subgraphs/largesubgraphs/cluster"+i+"/map"+i+" "+"labeling_enron_subgraphs/largesubgraphs/cluster"+i+"_1");
+		out2.println(cluster.get(i).size() +" "+edges.get(i).size());
+
 		out1.close();
                 } catch (Exception ex) {
                     Logger.getLogger(JSONConvV2.class.getName()).log(Level.SEVERE, null, ex);
