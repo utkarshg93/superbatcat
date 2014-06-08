@@ -27,11 +27,9 @@ public class JSONConvV41
     /**
      * @param args the command line arguments
      */
-    public static PrintWriter p,p1;
+    public static PrintWriter p, p1;
     public static ArrayList<Integer> counters = new ArrayList<>();
-    public static int nodes=0;
-    
-   
+    public static int nodes = 0;
 
     public static void main(String[] args) throws FileNotFoundException, IOException
     {
@@ -43,7 +41,7 @@ public class JSONConvV41
         p.println("{\"name\": \"flare\", \"children\": [");
 
 
-        printClusteringTree(args[0], 1);
+        printClusteringTree(args[0], 1, false);
 
         p.println("]");
 
@@ -55,7 +53,7 @@ public class JSONConvV41
         {
             p.println(scan1.nextLine());
         }
-        
+
         printSizeObject();
         System.out.println(counters);
         p.println("}");
@@ -69,24 +67,25 @@ public class JSONConvV41
         List<File> resultList = new ArrayList<File>();
 
         // get all the files from a directory
-       try{ 
-       File[] fList = directory.listFiles();
-
-        for (File file : fList)
+        try
         {
-            if (file.isDirectory())
+            File[] fList = directory.listFiles();
+
+            for (File file : fList)
             {
-                resultList.add(file);
+                if (file.isDirectory())
+                {
+                    resultList.add(file);
+                }
             }
+        } catch (Exception e)
+        {
+            System.out.println(directoryName);
         }
-}catch (Exception e){
-	System.out.println(directoryName);	
-	}
 
         return resultList;
-        
+
     }
-    
 
     public static List<File> listf(String directoryName)
     {
@@ -95,32 +94,54 @@ public class JSONConvV41
         List<File> resultList = new ArrayList<File>();
 
         // get all the files from a directory
-	try{
-        File[] fList = directory.listFiles();
-	for (File file : fList)
+        try
         {
-            if (file.isFile())
+            File[] fList = directory.listFiles();
+            for (File file : fList)
             {
-                resultList.add(file);
+                if (file.isFile())
+                {
+                    resultList.add(file);
+                }
             }
+        } catch (Exception e)
+        {
+            System.out.println(directoryName);
         }
-}catch (Exception e){
-	System.out.println(directoryName);	
-	}
-        
+
         return resultList;
     }
 
-    public static void readLargeSubgraphs(String path, int prefix) throws IOException
+    public static void readLargeSubgraphs(String path, int prefix, boolean redundancy) throws IOException
     {
-        if(counters.size()<prefix+1)
-        {
-            while((counters.size()<prefix+1))
-            counters.add(0);
-            //counters.add(prefix+1,0);
-        }
+        boolean suppress = false;
+        System.err.println("here");
         List<File> l = listd(path);
         boolean flag = false;
+        if (l.size()==1 && redundancy)
+        {
+            suppress = true;
+            System.out.println("redundancy detected");
+            printClusteringTree(l.get(0).getAbsolutePath(), prefix, redundancy);
+            return;
+        }
+        if (l.size() == 1 && !redundancy)
+        {
+            System.out.println("redundancy set");
+            redundancy = true;
+        }
+
+        if (counters.size() < prefix + 1 && !suppress)
+        {
+            while ((counters.size() < prefix + 1))
+            {
+                counters.add(0);
+            }
+            //counters.add(prefix+1,0);
+        }
+
+
+
         for (int i = 0; i < l.size(); i++)
         {
             if (flag)
@@ -128,12 +149,21 @@ public class JSONConvV41
                 p.println(",");
             }
 
-            p.println("{\"name\": \"" + l.get(i).getName() + "d" + prefix + "\", \"children\": [");
-            counters.set(prefix,counters.get(prefix)+1);
-            printClusteringTree(l.get(i).getAbsolutePath(), prefix + 1);
+            if (!suppress)
+            {
+                p.println("{\"name\": \"" + l.get(i).getName() + "d" + prefix + "\", \"children\": [");
+                counters.set(prefix, counters.get(prefix) + 1);
+               
+            }
+            if(suppress)
+                prefix--;
+            
+            printClusteringTree(l.get(i).getAbsolutePath(), prefix + 1, redundancy);
 
-
-            p.println("]}");
+            if (!suppress)
+            {
+                p.println("]}");
+            }
 
             flag = true;
         }
@@ -144,11 +174,13 @@ public class JSONConvV41
 
     public static void readSmallSubgraphs(String path, int prefix, boolean comma) throws IOException
     {
-        
-        if(counters.size()<prefix+1)
+
+        if (counters.size() < prefix + 1)
         {
-            while((counters.size()<prefix+1))
-            counters.add(0);
+            while ((counters.size() < prefix + 1))
+            {
+                counters.add(0);
+            }
             //counters.add(prefix+1,0);
         }
         List<File> l = listd(path);
@@ -172,21 +204,21 @@ public class JSONConvV41
 
             FileInputStream inpStream = new FileInputStream(l1.get(0));
             Scanner scan1 = new Scanner(inpStream);
-            counters.set(prefix,counters.get(prefix)+1);
+            counters.set(prefix, counters.get(prefix) + 1);
             nodes++;
 
             p.println("{\"name\":\"" + scan1.nextInt() + "\"}");
 
             p.println("]}");
             flag = true;
-             scan1.close();
+            scan1.close();
 
         }
 
 
     }
 
-    public static void printClusteringTree(String path, int prefix) throws FileNotFoundException, IOException
+    public static void printClusteringTree(String path, int prefix, boolean redundancy) throws FileNotFoundException, IOException
     {
         File f = new File(path + "/clusterEdgeListl1");
         if (f.exists())
@@ -200,7 +232,7 @@ public class JSONConvV41
 
         if (large.exists() && large.isDirectory())
         {
-            readLargeSubgraphs(path + "/largesubgraphs", prefix);
+            readLargeSubgraphs(path + "/largesubgraphs", prefix, redundancy);
         }
 
         File small = new File(path + "/smallsubgraphs");
@@ -233,14 +265,16 @@ public class JSONConvV41
         FileInputStream inpStream = null;
         if (l1.size() != 2)
         {
-            System.err.println("ERROR");
+            System.err.println("ERROR : incorrect directory structure at" + path );
             System.exit(1);
         }
-        
-        if(counters.size()<prefix+1)
+
+        if (counters.size() < prefix + 1)
         {
-            while((counters.size()<prefix+1))
-            counters.add(0);
+            while ((counters.size() < prefix + 1))
+            {
+                counters.add(0);
+            }
             //counters.add(prefix+1,0);
         }
 
@@ -258,9 +292,9 @@ public class JSONConvV41
         HashMap<Integer, Integer> map1 = new HashMap<>();
         int a, b;
         boolean flag = false;
- 
-        File  parent = new File(l1.get(1).getParent());
- //       counters.set(prefix, counters.get(prefix)+1);
+
+        File parent = new File(l1.get(1).getParent());
+        //       counters.set(prefix, counters.get(prefix)+1);
 //        p.println("{\"name\": \" " + parent.getName() + "d" + prefix + " \", \"children\": [");
         while (scan1.hasNext())
         {
@@ -280,9 +314,9 @@ public class JSONConvV41
             map1.put(a, b);
         }
 
- //       p.println("]}");
+        //       p.println("]}");
 
-       scan1.close();
+        scan1.close();
 
         return map1;
 
@@ -291,7 +325,7 @@ public class JSONConvV41
 
     public static HashMap< Integer, ArrayList<Integer>> loadEdgelist(String path, int prefix) throws FileNotFoundException
     {
-        
+
         HashMap< Integer, ArrayList<Integer>> adj = new HashMap<>();
         List<File> l1 = listf(path);
         File parent = null;
@@ -316,7 +350,7 @@ public class JSONConvV41
         Scanner scan1 = new Scanner(inpStream);
 
 
-        p1.println(",\"" + parent.getName() + "d" + (prefix-1) + "\":[");
+        p1.println(",\"" + parent.getName() + "d" + (prefix - 1) + "\":[");
 
         int s, t;
         boolean flag = false;
@@ -342,34 +376,34 @@ public class JSONConvV41
         }
         p1.println("]");
 
-	 scan1.close();
+        scan1.close();
         return adj;
 
     }
-    
-   public static void printSizeObject()
-   {
-       p.println(",\"sizes\":[");
-       boolean flag=false;
-       int total=0;
-       for(int ctr : counters)
-       {
-           if(flag)
-           {
-               p.print(",");
-           }
-           
-           p.print(ctr);
-           total+=ctr;
-           flag=true;
-           
-       }
-       p.println(","+nodes);
-       System.out.println(total + "+ "+nodes);
-        
-       p.println("]");
-       
-   }
+
+    public static void printSizeObject()
+    {
+        p.println(",\"sizes\":[");
+        boolean flag = false;
+        int total = 0;
+        for (int ctr : counters)
+        {
+            if (flag)
+            {
+                p.print(",");
+            }
+
+            p.print(ctr);
+            total += ctr;
+            flag = true;
+
+        }
+        p.println("," + nodes);
+        System.out.println(total + "+ " + nodes);
+
+        p.println("]");
+
+    }
 
     public static void printEdgeObject(File f, int prefix) throws FileNotFoundException
     {
@@ -382,16 +416,16 @@ public class JSONConvV41
         FileInputStream inpStream = new FileInputStream(f);
         Scanner scan1 = new Scanner(inpStream);
         File parent = new File(f.getParent());
-        int suffix=0;
+        int suffix = 0;
         if (prefix == 1)
         {
             p1.println(",\"clustlinks\":[");
-            suffix=prefix;
+            suffix = prefix;
         } else
         {
-            p1.println(",\"" + parent.getName() + "d" + (prefix-1) + "\":[");
-            suffix=prefix+1;
-           // counters.set(prefix, counters.get(prefix)+1);
+            p1.println(",\"" + parent.getName() + "d" + (prefix - 1) + "\":[");
+            suffix = prefix + 1;
+            // counters.set(prefix, counters.get(prefix)+1);
         }
         int s, t;
         boolean flag = false;
@@ -405,12 +439,14 @@ public class JSONConvV41
 
             s = scan1.nextInt();
             t = scan1.nextInt();
-	    if (prefix == 1)
-            	p1.println("{\"source\": \"cluster" + s + "d1\"" +", \"target\": \"cluster" + t + "d1\"" + ", \"value\":1}");
-            
-	    else		
-            	p1.println("{\"source\": \"cluster" + s + "d" + (suffix-1) + "\", \"target\":\"cluster" + t + "d" + (suffix-1) + "\", \"value\":1}");
-            
+            if (prefix == 1)
+            {
+                p1.println("{\"source\": \"cluster" + s + "d1\"" + ", \"target\": \"cluster" + t + "d1\"" + ", \"value\":1}");
+            } else
+            {
+                p1.println("{\"source\": \"cluster" + s + "d" + (suffix - 1) + "\", \"target\":\"cluster" + t + "d" + (suffix - 1) + "\", \"value\":1}");
+            }
+
             flag = true;
         }
 
